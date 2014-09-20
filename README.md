@@ -22,7 +22,7 @@ Um die Erschaffung des Grundsystems voranzutreiben, wird hierfür auf folgende O
 
 - Austausch essentieller, GNU basierter Anwendungen durch freie BSD[^1] derivate und Teile des Anima[^2] Betriebssytems.
 
-- Applizierung Kernel/Scheduler spezifischer Patches. 
+- Applizierung Kernel/Scheduler spezifischer Patches.
 _______________________
 
 Die Hypervisor Ebene basiert auf freien, von Oracle zur Verfügung gestelltem Source Code. 
@@ -31,15 +31,27 @@ Dieser wird von Oracle selbst u. a. als Basis für Virtualbox genutzt.
 
 Meine Lösung (nachfolgend "Virtasia" genannt) unterscheidet sich von Virtualbox in folgenden Punkten: 
 
-- Fokus auf ein Einsatzgebiet. Dementsprechend nur ein Modus (SDL)
+- Fokus auf ein Einsatzgebiet. Dementsprechend nur ein Modus (SDL).
 
-- Grafik/Audio Treiber bereits vorinstalliert
+- Grafik/Audio Treiber bereits vorinstalliert.
 
 - Fernwartung/Sicherung über eine gesicherte SSHD Sitzung.
 
-- Thin GUI
+- Thin GUI.
 
 - Modifiziertes Signaling. Ein "Herunterfahren" des virtualisierten OS fährt anschließend auch die Hardware herunter.
+
+
+#### Tooling
+_______________________
+
+- GCC (zur Kompilierung des Kernels sowie des Hypervisors). 
+
+- /bin/sh (zum Interpretieren der Interface Funktionen).
+
+- Xulrunner (die Basis der grafischen Administrationskonsole).
+
+- vi (zu Dokumentationszwecken sowie der Erstellung nötiger Funktionen).
 
 _______________________
 
