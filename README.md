@@ -43,5 +43,5 @@ Meine Lösung (nachfolgend "Virtasia" genannt) unterscheidet sich von Virtualbox
 
 _______________________
 
-[^1]: Frei zur kommerziellen wie auch nicht-kommerziellen Nutzung.
+[^1]: Frei zur kommerziellen wie auch nicht-kommerziellen Nutzung. <p>
 [^2]: Anima ist meine persönliche Eigenentwicklung, weswegen hierbei keinerlei Lizenzrechtliche Probleme entstehen.
