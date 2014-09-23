@@ -52,7 +52,9 @@ _______________________
 - Xulrunner (die Basis der grafischen Administrationskonsole).
 
 - vi (zu Dokumentationszwecken sowie der Erstellung nötiger Funktionen).
+ 
 
+Neben der eigentlichen Dokumentation in Textform werden sämtliche Änderungen und neu hinzugefügte Funktionen in Patch/Shellscript Form festgehalten, so dass das fertige Projekt nicht nur nachvollzogen sondern auch nachgebaut werden kann. 
 _______________________
 
 [^1]: Frei zur kommerziellen wie auch nicht-kommerziellen Nutzung. <p>
