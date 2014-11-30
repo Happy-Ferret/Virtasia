@@ -82,9 +82,6 @@ Die neue Infrastruktur soll folgende Bedingungen erfüllen.
 
 <div style="page-break-after: always;"></div>
 [Seite3]
-####Aufgabenstellung
-<div style="page-break-after: always;"></div>
-[Seite4]
 ####3. Systemanalyse
 
 #####3.1 Ist-Zustand
@@ -122,7 +119,7 @@ Bei den Kosten für die Installation/Konfiguration wird von einem Stundenlohn vo
 Der Großteil der Virtasia spezifischen Konfigurationszeit wird mit der Erstellung des Basissystems verbracht.
 
 <div style="page-break-after: always;"></div>
-[Seite5]
+[Seite4]
 
 Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre aus. Die Kosten für Updates sind im Falle von Virtasia variabel und der technische Support erfolgt durch die IT Abteilung der Handwerkskammer, welche durch eine umfangreiche Dokumentationssammlung unterstützt wird. Zur Vereinfachung der Kalkulation wird von einem jährlichen Kostenaufwand von 100 Stunden ausgegangen. In diesem ist die Erweiterung des Dokumentationsmaterials und die Applizierung jeglicher Softwareupdates bereits inbegriffen.
 
@@ -142,7 +139,7 @@ Auf Grund der deutlich niedrigeren Gesamtkosten und zu erwartenden Instandhaltun
 Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfüllen, wird hierbei auf ein modifiziertes GNU/Linux zurückgegriffen.
 
 <div style="page-break-after: always;"></div>
-[Seite6]
+[Seite5]
 ####Design
 ![alt text][img1]
 **Fig 1:** *Simplifizierte Darstellung der Virtasia Architektur.*
@@ -158,24 +155,24 @@ Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht.
 
 [^2]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
 <div style="page-break-after: always;"></div>
-[Seite7]
+[Seite6]
 ####Implementierung
 <div style="page-break-after: always;"></div>
 [Seite8]
 <div style="page-break-after: always;"></div>
 [Seite9]
 <div style="page-break-after: always;"></div>
-[Seite10]
+[Seite9]
 ####Verifizierung
 <div style="page-break-after: always;"></div>
-[Seite11]
+[Seite10]
 ####Abnahme
 <div style="page-break-after: always;"></div>
-[Seite12]
+[Seite11]
 ####Wirtschaftlicher Soll-Ist Vergleich
 <div style="page-break-after: always;"></div>
-[Seite13]
+[Seite12]
 ####Anhang/Quellen
 <div style="page-break-after: always;"></div>
-[Seite14]
+[Seite13]
 ####Eidesstattliche Erklärung
