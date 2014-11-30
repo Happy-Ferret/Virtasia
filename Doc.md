@@ -237,11 +237,25 @@ Als letzter Schritt werden Dokumentation und Software zur internen Git Versionsk
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
 
-Unter der Verwendung des vorhandenen Paketmanagementsystems erwies sich die Installation und Konfiguration der Komponenten leichter als erwartet. Hierdurch konnte etwa eine Stunde Zeit gespart werden. Desweiteren erwies sich eine Vereinfachung des Dateisystems als unnötig, wodurch diese Mehrarbeit wegfiel. 
+Unter der Verwendung des vorhandenen Paketmanagementsystems erwies sich die Installation und Konfiguration der Komponenten leichter als erwartet. Hierdurch konnten etwa zwei Stunden Arbeitszeit gespart werden. Desweiteren erwies sich eine Vereinfachung des Dateisystems als unnötig, wodurch diese Mehrarbeit wegfiel. 
 
-Die zeitlichen Abweichungen sind folgender Tabelle zu entnehmen. 
+Die Recherche nach einem geeigneten Werkzeug zur Erstellung einer "Live-Distribution" verlangte mit 4 Stunden deutlich mehr Zeit als erwartet ab. Die Verteilung des fertigen Produkts, hingegen, nahm nur etwa die Hälfte der Zeit in Anspruch, weswegen hier ein zeitlicher Ausgleich stattgefunden hat. 
 
+Letzten Endes nahm die Erstellung der Projektdokumentation, auf Grund technischer Probleme, 1 Stunde mehr Arbeit in Anspruch, als ursprünglich geplant. 
 
+Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen. 
+
+|                                       | Soll		           | Ist                                  |
+|---------------------------------------|--------------------|--------------------------------------|
+|Projektvorbereitung (Systemanalyse, Zeitplanung) |    1 Std |  1 Std                               |
+|Installation der Entwicklungs- bzw. Testumgebung |    1 Std |  1 Std                               |
+| Installation und Grobdokumentation der nötigen Komponente  |  15 Std             | 13 Std         |
+| Erstellung eines geeigneten .iso Abbildes      | 2 Std     | 4 Std                                |
+|Verifizierung und Funktionstests  |          2 Std          |        2 Std                         |
+|Softwareverteilung               |   4 Std                  | 2 Std                                |
+|Abschlussbesprechung             |2 Std                     | 2 Std                                |
+|Dokumentation und Erstellung der Präsentation | 8 Std       | 9 Std                                |
+|**Gesamt*                        | 35 Std                         |          34 Std                |
 
 <div style="page-break-after: always;"></div>
 [Seite10]
