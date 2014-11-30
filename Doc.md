@@ -33,11 +33,11 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 | 3. Systemanalyse         	                  |	 3|
 | 4. Design			         	  |	 5|
 | 5. Implementierung		         	  |	 6|
-| 6. Verifizierung		        	  |	9|
-| 7. Abnahme			        	  |	10|
-| 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	11|
-| 9. Anhang/Quellen 		         	  |	12|
-|10. Eidesstattliche Erklärung	         	  |	13|
+| 6. Verifizierung		        	  |	8|
+| 7. Abnahme			        	  |	9|
+| 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	10|
+| 9. Appendix		         	  |	11|
+|10. Eidesstattliche Erklärung	         	  |	12|
 
 <div style="page-break-after: always;"></div>
 [Seite2]
@@ -205,8 +205,8 @@ Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, wer
 #####5.6 Erstellung des Installationsmediums
 
 Zur Erstellung des Installationsmediums werden die Refracta Tools[^10] verwendet.
-Die Erzeugung der iso erfolgt strikt nach der publizierten Dokumentation[^11]
-Anschließend wird die erzeugte iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^12] bootfähig gemacht. 
+Die Erzeugung der .iso erfolgt strikt nach der publizierten Dokumentation[^11]
+Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^12] bootfähig gemacht. 
 
 Dies schließt den Implementierungsprozess ab. 
 
@@ -220,6 +220,10 @@ Dies schließt den Implementierungsprozess ab.
 <div style="page-break-after: always;"></div>
 [Seite8]
 ####6. Verifizierung
+Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf einem unbenutzten Laptop installiert. 
+
+Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem installiert und ausgiebig getestet. 
+Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. 
 <div style="page-break-after: always;"></div>
 [Seite9]
 ####7. Abnahme
