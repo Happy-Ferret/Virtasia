@@ -87,7 +87,7 @@ RASUI[^1]
 [Seite4]
 ####3. Systemanalyse
 
-###3.1 Ist-Zustand
+#####3.1 Ist-Zustand
 
 Die nähere Betrachtung der Infrastruktur zeigt, dass es sich um recht einfaches, Arbeitsgruppen basiertes
 System auf Windows XP Basis handelt. 
@@ -98,7 +98,7 @@ Da es an einem Sicherungskonzept fehlt, führt eine Zerstörung der Hardware zum
 
 Teilnehmer haben praktisch uneingeschränkte Kontrolle über die vorliegenden Computersysteme sowie die Arbeitsgruppe selbst. 
 
-###3.2 Soll-Konzept
+#####3.2 Soll-Konzept
 
 Auf Basis der o. g. Analyse wurde ein Soll-Konzept erstellt. 
 
