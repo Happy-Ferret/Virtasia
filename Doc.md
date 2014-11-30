@@ -85,7 +85,30 @@ RASUI[^1]
 ####Aufgabenstellung
 <div style="page-break-after: always;"></div>
 [Seite4]
-####Systemanalyse
+####3. Systemanalyse
+
+###3.1 Ist-Zustand
+
+Die nähere Betrachtung der Infrastruktur zeigt, dass es sich um recht einfaches, Arbeitsgruppen basiertes
+System auf Windows XP Basis handelt. 
+
+Auf Grund fehlender Sicherheitskonzepte ist ein unbefugtes Eindringen durch Dritte bzw. die Ausführung von Schadsoftware nur schwerlich vermeidbar. 
+
+Da es an einem Sicherungskonzept fehlt, führt eine Zerstörung der Hardware zum unwiderruflichen Datenverlust. 
+
+Teilnehmer haben praktisch uneingeschränkte Kontrolle über die vorliegenden Computersysteme sowie die Arbeitsgruppe selbst. 
+
+###3.2 Soll-Konzept
+
+Auf Basis der o. g. Analyse wurde ein Soll-Konzept erstellt. 
+
+Neben den unter Punkt 2. besprochenen Voraussetzungen wurde hierbei besonderes Augenmerk auf die Wirtschaftlichkeit
+gelegt. Desweiteren wurde Wert darauf gelegt, möglichst nur auf offene Standards zurückzugreifen.
+
+Da es darum geht, ein sicheres System zu implementieren, welches dem Benutzer nach Möglichkeit vertraut ist, andererseits aber dem Administrator erweiterte Administrations- und Sicherungsmechaniken bietet, fiel die Wahl auf einen spezialisierten "Desktop Hypervisor".
+
+
+
 <div style="page-break-after: always;"></div>
 [Seite5]
 <div style="page-break-after: always;"></div>
