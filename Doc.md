@@ -126,13 +126,13 @@ Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre a
 |                                       | Virtasia		       | Citrix Xenclient Enterprise          |
 |---------------------------------------|--------------------|--------------------------------------|
 |Lizenzkosten                           |                    | 6.420,00 € (30 PCs)                  |
-|**Installation/Konfiguration**         |                    |                                      |
+|**Erstinstallation/Konfiguration**     |                    |                                      |
 |Zeitlicher Aufwand                     | 35 Std             | 3 Std                                |
 |Arbeitskosten                          | 875,00 €           | 75,00 €                              |
 |**Folgekosten**                        |                    |                                      |
 |Updates/Support                        | 2.500,00 €/Jahr)   | ~ 1.700,00 €/Jahr                    |
 |Anschaffung weiterer Geräte            |50€/Ausbau          | 2,140.00 € (15 weitere PCs)          |
-|**Gesamtkosten**                       |                    |                                      |
+|**Gesamtkosten**                       |***5.925,00 €***    |***12.035,00 €***                     |
 
 <div style="page-break-after: always;"></div>
 [Seite5]
