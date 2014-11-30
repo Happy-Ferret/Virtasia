@@ -121,6 +121,9 @@ Bei den Kosten für die Installation/Konfiguration wird von einem Stundenlohn vo
 
 Der Großteil der Virtasia spezifischen Konfigurationszeit wird mit der Erstellung des Basissystems verbracht.
 
+<div style="page-break-after: always;"></div>
+[Seite5]
+
 Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre aus. Die Kosten für Updates sind im Falle von Virtasia variabel und der technische Support erfolgt durch die IT Abteilung der Handwerkskammer, welche durch eine umfangreiche Dokumentationssammlung unterstützt wird. Zur Vereinfachung der Kalkulation wird von einem jährlichen Kostenaufwand von 100 Stunden ausgegangen. In diesem ist die Erweiterung des Dokumentationsmaterials und die Applizierung jeglicher Softwareupdates bereits inbegriffen.
 
 |                                       | Virtasia		       | Citrix Xenclient Enterprise          |
@@ -134,8 +137,10 @@ Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre a
 |Anschaffung weiterer Geräte            |50€/Ausbau          | 2,140.00 € (15 weitere PCs)          |
 |**Gesamtkosten**                       |***5.925,00 €***    |***12.035,00 €***                     |
 
-<div style="page-break-after: always;"></div>
-[Seite5]
+Auf Grund der deutlich niedrigeren Gesamtkosten und zu erwartenden Instandhaltungskosten fällt die Wahl auf Virtasia.
+
+Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfüllen, wird hierbei auf ein modifiziertes GNU/Linux zurückgegriffen.
+
 <div style="page-break-after: always;"></div>
 [Seite6]
 ####Design
