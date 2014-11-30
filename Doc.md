@@ -255,7 +255,7 @@ Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen.
 |Softwareverteilung               |   4 Std                  | 2 Std                                |
 |Abschlussbesprechung             |2 Std                     | 2 Std                                |
 |Dokumentation und Erstellung der Präsentation | 8 Std       | 9 Std                                |
-|**Gesamt**                       | 35 Std                   |                34 Std                |
+|**Gesamt**                       | **35 Std**                   |                **34 Std**                |
 
 <div style="page-break-after: always;"></div>
 [Seite10]
