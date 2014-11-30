@@ -65,13 +65,19 @@ In Ermangelung eines komplexen Benutzerkontrollmechanismus haben Schüler deswei
 
 Die neue Infrastruktur soll folgende Bedingungen erfüllen. 
 
-- Einfache Handhabung.
-- Möglichst minimale Einarbeitungszeiten.
-- Maximale Kontrolle seitens des Administrators. 
-- Minimale Kontrolle seitens des Benutzers.
-- RASUI[^1]
+Einfache Handhabung.
 
-[^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability
+Möglichst minimale Einarbeitungszeiten.
+
+Maximale Kontrolle seitens des Administrators. 
+
+Minimale Kontrolle seitens des Benutzers.
+
+RASUI[^1]
+
+[^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability 
+*=* 
+**Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
 
 
 <div style="page-break-after: always;"></div>
