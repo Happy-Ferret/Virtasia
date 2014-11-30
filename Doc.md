@@ -65,15 +65,15 @@ In Ermangelung eines komplexen Benutzerkontrollmechanismus haben Schüler deswei
 
 Die neue Infrastruktur soll folgende Bedingungen erfüllen. 
 
-Einfache Handhabung.
+- Einfache Handhabung.
 
-Möglichst minimale Einarbeitungszeiten.
+- Möglichst minimale Einarbeitungszeiten.
 
-Maximale Kontrolle seitens des Administrators. 
+- Maximale Kontrolle seitens des Administrators. 
 
-Minimale Kontrolle seitens des Benutzers.
+- Minimale Kontrolle seitens des Benutzers.
 
-RASUI[^1]
+- RASUI[^1]
 
 [^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability 
 *=* 
@@ -107,7 +107,24 @@ gelegt. Desweiteren wurde Wert darauf gelegt, möglichst nur auf offene Standard
 
 Da es darum geht, ein sicheres System zu implementieren, welches dem Benutzer nach Möglichkeit vertraut ist, andererseits aber dem Administrator erweiterte Administrations- und Sicherungsmechaniken bietet, fiel die Wahl auf einen spezialisierten "Desktop Hypervisor".
 
+######3.3 Wirtschaftlichkeitsvergleich
 
+Bei der Auswahl eines Desktop Hypervisors standen folgende Optionen zur Auswahl, welche nachfolgend auf ihre Wirtschaftlichkeit überprüft werden sollen. 
+
+Eigenentwicklung (fortwährend Virtasia genannt)
+
+Citrix XenClient Enterprise
+
+Die Preise von Citrix XenClient Enterprise entsprechen denen, zum Zeitpunkt der Dokumentation, gelisteten Preise unter http://store.citrix.com/store/citrix/pd/productID.264563600/pgm.94634900/ThemeID.37713000
+
+Bei den Kosten für die Installation/Konfiguration wird von einem Stundenlohn von 25€ ausgegangen, wie Sie für einem IT Fachinformatiker im öffentlichen Dienst üblich sind.
+
+Der Großteil der Virtasia spezifischen Konfigurationszeit wird mit der Erstellung des Basissystems verbracht.
+
+|                       | Virtasia		 | Citrix Xenclient Enterprise          |
+|-----------------------|--------------|--------------------------------------|
+|Lizenzkosten           |              | 6.420,00 € (30 PCs)                  |
+|Installation/Konfiguration|           |                                      |
 
 <div style="page-break-after: always;"></div>
 [Seite5]
