@@ -194,10 +194,20 @@ Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia 
 [^4]: http://heirloom.sourceforge.net/
 [^5]: ./UI/Virtasia_UI
 [^6]: ./UI/.xinitrc
-[^7]: sudo apt-get install virtualbox 
+[^7]: sudo apt-get install virtualbox
 
 <div style="page-break-after: always;"></div>
-[Seite8]
+#####5.5 Konfiguration des Startvorgangs
+
+Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten[^8]. Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt[^9]
+
+Dies schließt den Implementierungsprozess ab. 
+
+[^8]: ./boot/Xwrapper.config
+[^9]: ./boot/rc.local
+
+
+
 <div style="page-break-after: always;"></div>
 [Seite9]
 <div style="page-break-after: always;"></div>
