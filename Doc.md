@@ -182,10 +182,19 @@ Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Ja
 
 Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in ***.xinitrc***[^6] vermerkt.
 
+#####5.4 Installation des Hypervisors
+
+Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^7]
+Die Installation der Gastsysteme findet über die beigelegte GUI statt. 
+Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia liest dann die, von Virtualbox bereitgestellten, Informationen aus und erzeugt eine eigene Konfigurationsdatei. Diese enthält, neben den Namen der Gastsysteme, dem zum Start eines Gastsystems auszuführenden Befehl. 
+
+
+
 [^3]: https://github.com/Happy-Ferret/Anima/tree/master/bin
 [^4]: http://heirloom.sourceforge.net/
 [^5]: ./UI/Virtasia_UI
-[^6]: ./UI/.xinitrc 
+[^6]: ./UI/.xinitrc
+[^7]: sudo apt-get install virtualbox 
 
 <div style="page-break-after: always;"></div>
 [Seite8]
