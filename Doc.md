@@ -1,4 +1,4 @@
-[img1]: ./img/Architecture.png "Simplifizierte Darstellung der Virtasia Architektur."
+[img1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Architecture.png?token=AB3yOk56-pgL8ss943u4XbRDcaTvGtBKks5UgeBVwA%3D%3D "Simplifizierte Darstellung der Virtasia Architektur."
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -49,6 +49,15 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 [Seite6]
 ####Design
 ![alt text][img1]
+
+**Simplifizierte Darstellung der Virtasia Architektur.**
+
+Wie dem obenstehenden Schaubild zu entnehmen ist, handelt es sich bei Virtasia
+um eine Mischform. Die grundlegende Architektur eines Typ 2 Hypervisors 
+verbindet sich mit von Typ 1 Hypervisoren bekannten Mechaniken.   
+
+Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt 
+Virtasia über die Fähigkeit grundlegende, Kernel spezifische Attribute zu verändern.  
 <div style="page-break-after: always;"></div>
 [Seite7]
 ####Implementierung
