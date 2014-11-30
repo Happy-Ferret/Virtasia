@@ -49,15 +49,16 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 [Seite6]
 ####Design
 ![alt text][img1]
-
-**Simplifizierte Darstellung der Virtasia Architektur.**
+***Simplifizierte Darstellung der Virtasia Architektur.***
 
 Wie dem obenstehenden Schaubild zu entnehmen ist, handelt es sich bei Virtasia
 um eine Mischform. Die grundlegende Architektur eines Typ 2 Hypervisors 
 verbindet sich mit von Typ 1 Hypervisoren bekannten Mechaniken.   
 
 Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt 
-Virtasia über die Fähigkeit grundlegende, Kernel spezifische Attribute zu verändern.  
+Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^1] zu verändern.
+
+[^1]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
 <div style="page-break-after: always;"></div>
 [Seite7]
 ####Implementierung
