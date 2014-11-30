@@ -140,7 +140,7 @@ Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfül
 
 <div style="page-break-after: always;"></div>
 [Seite5]
-####Design
+####4. Design
 ![alt text][img1]
 **Fig 1:** *Simplifizierte Darstellung der Virtasia Architektur.*
 
@@ -156,17 +156,47 @@ Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht.
 [^2]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
 <div style="page-break-after: always;"></div>
 [Seite6]
-####Implementierung
+####5. Implementierung
+
+Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungszwecken wird der Quellcode vorhandener Softwarelösungen teilweise umgeschrieben. Die Veränderungen werden dokumentiert und die so entstehenden "Patches" den Anlagen beigefügt. 
+
+#####5.1 Auswahl der Basisdistribution
+
+Auf Grund persönlicher Erfahrungen fällt die Wahl auf Debian "Wheezy". 
+Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Einfachheit bekannt. 
+
+Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in den Anlagen unter ***./patches/kernel***.
+
+#####5.2 Installation des Basissystems
+
+Die Basisdistribution wird, bei eingesteckter und vorkonfigurierter Netzwerkverbindung, direkt von CD installiert. 
+Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist der Anlage unter ***/scripts/install_kernel.sh*** zu entnehmen.
+
+Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^3] respektive Unix System V [^4] basierte Tools ersetzt. Nähere Informationen hierzu finden sich unter ***/scripts/install_userland.sh***
+
+#####5.3 Konfiguration der Benutzeroberfläche
+
+Im nächsten Schritt wird die Benutzeroberfläche installiert. Diese basiert auf Mozillas XUL und verwendet Animas "Aphrodite" Grafikschnittstelle. 
+
+Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Javascript, HTML5, XML und C/C++ stark vereinfacht. So besteht die Definition der kompletten Virtasia Benutzerumgebung[^5] aus weit unter 100 Zeilen Quellcode. 
+
+Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in ***.xinitrc***[^6] vermerkt.
+
+[^3]: https://github.com/Happy-Ferret/Anima/tree/master/bin
+[^4]: http://heirloom.sourceforge.net/
+[^5]: ./UI/Virtasia_UI
+[^6]: ./UI/.xinitrc 
+
 <div style="page-break-after: always;"></div>
 [Seite8]
 <div style="page-break-after: always;"></div>
 [Seite9]
 <div style="page-break-after: always;"></div>
 [Seite9]
-####Verifizierung
+####6. Verifizierung
 <div style="page-break-after: always;"></div>
 [Seite10]
-####Abnahme
+####7. Abnahme
 <div style="page-break-after: always;"></div>
 [Seite11]
 ####Wirtschaftlicher Soll-Ist Vergleich
