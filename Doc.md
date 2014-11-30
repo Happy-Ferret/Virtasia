@@ -22,21 +22,21 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 |			              		  | 	  |
 |-------------------------------------------------|-------|
 | 1. Das Unternehmen		                  |      2| 
-| 2. Aufgabenstellung      	                  |	 [2](#Header)|
-| 3. Systemanalyse         	                  |	 4|
-| 4. Design			         	  |	 6|
-| 5. Implementierung		         	  |	 7|
-| 6. Verifizierung		        	  |	10|
-| 7. Abnahme			        	  |	11|
-| 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	12|
-| 9. Anhang/Quellen 		         	  |	13|
-|10. Eidesstattliche Erklärung	         	  |	14|
+| 2. Aufgabenstellung      	                  |	 [2](#2. Aufgabenstellung)|
+| 3. Systemanalyse         	                  |	 3|
+| 4. Design			         	  |	 5|
+| 5. Implementierung		         	  |	 6|
+| 6. Verifizierung		        	  |	9|
+| 7. Abnahme			        	  |	10|
+| 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	11|
+| 9. Anhang/Quellen 		         	  |	12|
+|10. Eidesstattliche Erklärung	         	  |	13|
 
 
 
 <div style="page-break-after: always;"></div>
 [Seite2]
-####Das Unternehmen
+####1. Das Unternehmen
 
 Das Projekt findet in der Bildungsakademie Waldshut statt. 
 Die Bildungsakademie ist eine, der Handwerkskammer untergeordnete, Lehrinstitution zur überberuflichen Bildung
@@ -50,7 +50,7 @@ Insbesondere im Bereich Bereich KFZ und Elektrotechnik sind in den letzten Jahre
 
 Die anfängliche Projektphase findet daher in der Abteilung "Elektrotechnik UEBA" statt. Sollte sich die verwendete Technologie bewähren, ist eine Ausweitung auf den KFZ Bereich denkbar. 
 
-####Aufgabenstellung
+####2. Aufgabenstellung
 
 
 
