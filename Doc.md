@@ -49,7 +49,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 [Seite6]
 ####Design
 ![alt text][img1]
-***Simplifizierte Darstellung der Virtasia Architektur.***
+**Fig 1:** *Simplifizierte Darstellung der Virtasia Architektur.*
 
 Wie dem obenstehenden Schaubild zu entnehmen ist, handelt es sich bei Virtasia
 um eine Mischform. Die grundlegende Architektur eines Typ 2 Hypervisors 
