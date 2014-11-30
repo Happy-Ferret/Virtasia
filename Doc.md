@@ -35,9 +35,10 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 | 5. Implementierung		         	  |	 6|
 | 6. Verifizierung		        	  |	8|
 | 7. Abnahme			        	  |	9|
-| 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	10|
-| 9. Appendix		         	  |	11|
-|10. Eidesstattliche Erklärung	         	  |	12|
+| 8. Wirtschaftlicher Soll-Ist Vergleich                     | 9|
+| 9. Fazit 	  | 	10|
+| 10. Appendix		         	  |	11|
+|11. Eidesstattliche Erklärung	         	  |	12|
 
 <div style="page-break-after: always;"></div>
 [Seite2]
@@ -220,16 +221,31 @@ Dies schließt den Implementierungsprozess ab.
 <div style="page-break-after: always;"></div>
 [Seite8]
 ####6. Verifizierung
+
 Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf einem unbenutzten Laptop installiert. 
 
 Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem installiert und ausgiebig getestet. 
-Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. 
+Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. Da die Hardware derer der Entwicklungsmaschine entspricht, fällt die Verifizierung äußerst zufriedenstellend aus.
 <div style="page-break-after: always;"></div>
 [Seite9]
 ####7. Abnahme
+
+Nach der erfolgreichen Verifizierung findet die Abnahme durch den Fachbereich IT der Handwerkskammer Konstanz statt.
+Eine kurze Projektpräsentation soll die Vorteile der Umsetzung verdeutlichen. Eventuelle Unklarheiten werden in der schriftlichen Dokumentation ergänzt. 
+
+Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt. 
+
+####8. Wirtschaftlicher Soll-Ist Vergleich
+
+Unter der Verwendung des vorhandenen Paketmanagementsystems erwies sich die Installation und Konfiguration der Komponenten leichter als erwartet. Hierdurch konnte etwa eine Stunde Zeit gespart werden. Desweiteren erwies sich eine Vereinfachung des Dateisystems als unnötig, wodurch diese Mehrarbeit wegfiel. 
+
+Die zeitlichen Abweichungen sind folgender Tabelle zu entnehmen. 
+
+
+
 <div style="page-break-after: always;"></div>
 [Seite10]
-####Wirtschaftlicher Soll-Ist Vergleich
+####9. Fazit
 <div style="page-break-after: always;"></div>
 [Seite11]
 ####Anhang/Quellen
