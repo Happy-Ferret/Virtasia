@@ -22,7 +22,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 |			              		  | 	  |
 |-------------------------------------------------|-------|
 | 1. Das Unternehmen		                  |      2| 
-| 2. Aufgabenstellung      	                  |	 [3](#Header)|
+| 2. Aufgabenstellung      	                  |	 [2](#Header)|
 | 3. Systemanalyse         	                  |	 4|
 | 4. Design			         	  |	 6|
 | 5. Implementierung		         	  |	 7|
@@ -37,6 +37,23 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 <div style="page-break-after: always;"></div>
 [Seite2]
 ####Das Unternehmen
+
+Das Projekt findet in der Bildungsakademie Waldshut statt. 
+Die Bildungsakademie ist eine, der Handwerkskammer untergeordnete, Lehrinstitution zur überberuflichen Bildung
+von Auszubildenden im Handwerk. 
+
+Die Bildungsakademie Waldshut begleitet Auszubildende in den Bereichen KFZ, Elektrotechnik, Mediengestaltung, sowie dem Maler- und Schreinerhandwerk. 
+
+Desweiteren richtet sich die Bildungsakademie, mit ihren zahlreichen Fort- und Weiterbildungsmaßnahmen, an Arbeitssuchende und Wiedereinsteiger. 
+
+Insbesondere im Bereich Bereich KFZ und Elektrotechnik sind in den letzten Jahren die Bedingungen an eine funktionierende IT Infrastruktur gestiegen. 
+
+Die anfängliche Projektphase findet daher in der Abteilung "Elektrotechnik UEBA" statt. Sollte sich die verwendete Technologie bewähren, ist eine Ausweitung auf den KFZ Bereich denkbar. 
+
+####Aufgabenstellung
+
+
+
 <div style="page-break-after: always;"></div>
 [Seite3]
 ####Aufgabenstellung
@@ -57,6 +74,8 @@ verbindet sich mit von Typ 1 Hypervisoren bekannten Mechaniken.
 
 Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt 
 Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^1] zu verändern.
+
+Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht. 
 
 [^1]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
 <div style="page-break-after: always;"></div>
