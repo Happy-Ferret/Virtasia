@@ -197,31 +197,38 @@ Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia 
 [^7]: sudo apt-get install virtualbox
 
 <div style="page-break-after: always;"></div>
+[Seite7]
 #####5.5 Konfiguration des Startvorgangs
 
 Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten[^8]. Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt[^9]
+
+#####5.6 Erstellung des Installationsmediums
+
+Zur Erstellung des Installationsmediums werden die Refracta Tools[^10] verwendet.
+Die Erzeugung der iso erfolgt strikt nach der publizierten Dokumentation[^11]
+Anschließend wird die erzeugte iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^12] bootfähig gemacht. 
 
 Dies schließt den Implementierungsprozess ab. 
 
 [^8]: ./boot/Xwrapper.config
 [^9]: ./boot/rc.local
-
+[^10]: http://sourceforge.net/projects/refracta/files/tools/
+[^11]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
+[^12]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
 
 
 <div style="page-break-after: always;"></div>
-[Seite9]
-<div style="page-break-after: always;"></div>
-[Seite9]
+[Seite8]
 ####6. Verifizierung
 <div style="page-break-after: always;"></div>
-[Seite10]
+[Seite9]
 ####7. Abnahme
 <div style="page-break-after: always;"></div>
-[Seite11]
+[Seite10]
 ####Wirtschaftlicher Soll-Ist Vergleich
 <div style="page-break-after: always;"></div>
-[Seite12]
+[Seite11]
 ####Anhang/Quellen
 <div style="page-break-after: always;"></div>
-[Seite13]
+[Seite12]
 ####Eidesstattliche Erklärung
