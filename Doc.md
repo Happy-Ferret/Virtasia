@@ -18,8 +18,15 @@ ist eine gewisse Ausfallsicherheit unerlässlich.
 
 Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 
+
+
+
+
+
+
+
 ###Inhaltsverzeichnis
-|			              		  | 	  |
+|			              		                          |       |
 |-------------------------------------------------|-------|
 | 1. Das Unternehmen		                  |      2| 
 | 2. Aufgabenstellung      	                  |	 [2](#2. Aufgabenstellung)|
@@ -31,8 +38,6 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 | 8. Wirtschaftlicher Soll-Ist Vergleich  	  | 	11|
 | 9. Anhang/Quellen 		         	  |	12|
 |10. Eidesstattliche Erklärung	         	  |	13|
-
-
 
 <div style="page-break-after: always;"></div>
 [Seite2]
@@ -52,6 +57,21 @@ Die anfängliche Projektphase findet daher in der Abteilung "Elektrotechnik UEBA
 
 ####2. Aufgabenstellung
 
+Auf Grund von Sicherheitsbedenken und weitreichenden technischen Problemen soll die Informationstechnik innerhalb des wöchentlichen Aus- und Weiterbildungsbetriebs komplett neu ausgelegt werden. 
+
+Eine Analyse der vorhandenen Technik hat enorme Defizite aufgezeigt. Da von den Festplatten der Teilnehmercomputer keine Sicherungen erzeugt werden, führt eine defekte Festplatte zum unwiederbringlichen Datenverlust. 
+
+In Ermangelung eines komplexen Benutzerkontrollmechanismus haben Schüler desweiteren vollen Zugriff auf das System. Dies führte dazu, dass bereits einige Viren, Trojaner und Spielesoftware entdeckt und entfernt wurde. 
+
+Die neue Infrastruktur soll folgende Bedingungen erfüllen. 
+
+- Einfache Handhabung.
+- Möglichst minimale Einarbeitungszeiten.
+- Maximale Kontrolle seitens des Administrators. 
+- Minimale Kontrolle seitens des Benutzers.
+- RASUI[^1]
+
+[^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability
 
 
 <div style="page-break-after: always;"></div>
@@ -73,11 +93,11 @@ um eine Mischform. Die grundlegende Architektur eines Typ 2 Hypervisors
 verbindet sich mit von Typ 1 Hypervisoren bekannten Mechaniken.   
 
 Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt 
-Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^1] zu verändern.
+Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^2] zu verändern.
 
 Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht. 
 
-[^1]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
+[^2]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
 <div style="page-break-after: always;"></div>
 [Seite7]
 ####Implementierung
