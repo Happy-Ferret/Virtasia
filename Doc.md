@@ -260,6 +260,17 @@ Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen.
 <div style="page-break-after: always;"></div>
 [Seite10]
 ####9. Fazit
+
+Ergebnis des Projekts ist ein moderner Desktop Hypervisor, zur sicheren, effizienten und performanten Ausführung von Gastbetriebssystemen. 
+
+Die Zielgruppe des Projekts sind Auszubildende im überbetrieblichen Unterricht der Bildungsakademie Waldshut, sowie der Fachbereich IT der Handwerkskammer Konstanz in seiner administrativen Support Rolle. 
+
+Alle Kriterien, mit Ausnahme des vereinfachten Dateisystems, konnten Fristgerecht umgesetzt werden. Letzteres erwies sich letztendlich als unwirtschaftlicher Mehraufwand mit nur geringen, nicht näher nennenswerten Vorteilen. 
+
+Die Umsetzung hat mir tiefere Einblicke in die Funktionsweise Unixoider Betriebssysteme ermöglicht und mich somit für meine zukünftige Tätigkeit in einem Unix/Linux fokusiertem Unternehmen bestens vorbereitet. 
+
+Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstationen der Bildungsakademie Waldshut nun alle nötigen Sicherheitsstandards erfüllen und sich relativ unkompliziert administrieren lassen. 
+
 <div style="page-break-after: always;"></div>
 [Seite11]
 ####Anhang/Quellen
