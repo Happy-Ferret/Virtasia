@@ -284,7 +284,7 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 [^4]: ./patches/install.sh
 [^5]: https://github.com/Happy-Ferret/Anima/tree/master/bin
 [^6]: http://heirloom.sourceforge.net/
-[^7]: ./UI/Media-Center
+[^7]: ./UI/Virtasia_UI
 [^8]: ./UI/.xinitrc
 [^9]: sudo apt-get install virtualbox
 [^10]: ./boot/Xwrapper.config
