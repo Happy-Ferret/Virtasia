@@ -1,4 +1,4 @@
-hsetroot -fill ~/africa.jpg
+hsetroot -fill ~/wallpaper.png
 xcompmgr & xsetroot -cursor_name watch & ~/Media-Center/start & sleep 5 
 xrdb -merge ~/.Xresources && xclock & sleep 1 
 

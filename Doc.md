@@ -128,8 +128,8 @@ Der Großteil der Virtasia spezifischen Konfigurationszeit wird mit der Erstellu
 
 Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre aus. Die Kosten für Updates sind im Falle von Virtasia variabel und der technische Support erfolgt durch die IT Abteilung der Handwerkskammer, welche durch eine umfangreiche Dokumentationssammlung unterstützt wird. Zur Vereinfachung der Kalkulation wird von einem jährlichen Kostenaufwand von 100 Stunden ausgegangen. In diesem ist die Erweiterung des Dokumentationsmaterials und die Applizierung jeglicher Softwareupdates bereits inbegriffen.
 
-|                                       | Virtasia		       | Citrix Xenclient Enterprise          |
-|---------------------------------------|--------------------|--------------------------------------|
+|                                       | Virtasia           | Citrix Xenclient Enterprise          |
+|---------------------------------------|:-------------------|--------------------------------------:|
 |Lizenzkosten                           |                    | 6.420,00 € (30 PCs)                  |
 |**Erstinstallation/Konfiguration**     |                    |                                      |
 |Zeitlicher Aufwand                     | 35 Std             | 3 Std                                |
@@ -245,17 +245,17 @@ Letzten Endes nahm die Erstellung der Projektdokumentation, auf Grund technische
 
 Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen. 
 
-|                                       | Soll		           | Ist                                  |
-|---------------------------------------|--------------------|--------------------------------------|
-|Projektvorbereitung (Systemanalyse, Zeitplanung) |    1 Std |  1 Std                               |
-|Installation der Entwicklungs- bzw. Testumgebung |    1 Std |  1 Std                               |
-| Installation und Grobdokumentation der nötigen Komponente  |  15 Std             | 13 Std         |
-| Erstellung eines geeigneten .iso Abbildes      | 2 Std     | 4 Std                                |
-|Verifizierung und Funktionstests  |          2 Std          |        2 Std                         |
-|Softwareverteilung               |   4 Std                  | 2 Std                                |
-|Abschlussbesprechung             |2 Std                     | 2 Std                                |
-|Dokumentation und Erstellung der Präsentation | 8 Std       | 9 Std                                |
-|**Gesamt**                       | **35 Std**                   |                **34 Std**                |
+|                                       | Soll		 |                        | Ist                                  |
+|---------------------------------------|--------------------:|:-----------:|--------------------------------------:|
+|Projektvorbereitung (Systemanalyse, Zeitplanung) |    1 Std ||  1 Std                               |
+|Installation der Entwicklungs- bzw. Testumgebung |    1 Std ||  1 Std                               |
+| Installation und Grobdokumentation der nötigen Komponente  |  15 Std   |          | 13 Std         |
+| Erstellung eines geeigneten .iso Abbildes      | 2 Std     || 4 Std                                |
+|Verifizierung und Funktionstests  |          2 Std          ||        2 Std                         |
+|Softwareverteilung               |   4 Std                  || 2 Std                                |
+|Abschlussbesprechung             |2 Std                     || 2 Std                                |
+|Dokumentation und Erstellung der Präsentation | 8 Std       || 9 Std                                |
+|**Gesamt**                       | **35 Std**                |   |                **34 Std**                |
 
 <div style="page-break-after: always;"></div>
 [Seite10]
