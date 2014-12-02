@@ -62,3 +62,5 @@ cp ./boot/rc.local /etc/rc.local
 cp ./boot/Xwrapper.config /etc/X11/Xwrapper.config
 
 #Installiere Virtasia UI.
+cp ./UI/.xinitrc ~/.xinitrc
+cp ./UI/Media-Center ~/Media-Center
