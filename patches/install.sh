@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Lade nötige Arbeitsumgebung herunter.
 apt-get install kernel-package libncurses5-dev fakeroot git haskell-platform xorg oneko hsetroot
 
