@@ -3,3 +3,5 @@
 * Weitere Bilder hinzufügen.
 * Anlagen hinzufügen und im Appendix ergänzen.
 * Titelseite mit Projektname, Logo und Ausbildungsfirma.
+* Bilder von make menuconfig hinzufügen.
+* Prozesskarte zu "Implementierung" erstellen (per Dia)
