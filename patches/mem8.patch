@@ -1,0 +1,65 @@
+diff --git a/Documentation/sysctl/vm.txt b/Documentation/sysctl/vm.txt
+index dd9d0e3..8008e53 100644
+--- a/Documentation/sysctl/vm.txt
++++ b/Documentation/sysctl/vm.txt
+@@ -20,6 +20,10 @@ Currently, these files are in /proc/sys/vm:
+ 
+ - admin_reserve_kbytes
+ - block_dump
++- cache_limit_mbytes
++- cache_limit_ratio
++- cache_reclaim_s
++- cache_reclaim_weight
+ - compact_memory
+ - dirty_background_bytes
+ - dirty_background_ratio
+@@ -97,6 +101,45 @@ information on block I/O debugging is in Documentation/laptops/laptop-mode.txt.
+ 
+ ==============================================================
+ 
++cache_limit_mbytes
++
++This is used to limit page cache amount. The input unit is MB, value range
++is from 0 to totalram_pages. If this is set to 0, it will not limit page cache.
++When written to the file, cache_limit_ratio will be updated too.
++
++The default value is 0.
++
++==============================================================
++
++cache_limit_ratio
++
++This is used to limit page cache amount. The input unit is percent, value
++range is from 0 to 100. If this is set to 0, it will not limit page cache.
++When written to the file, cache_limit_mbytes will be updated too.
++
++The default value is 0.
++
++==============================================================
++
++cache_reclaim_s
++
++This is used to reclaim page cache in circles. The input unit is second,
++the minimum value is 0. If this is set to 0, it will disable the feature.
++
++The default value is 0.
++
++==============================================================
++
++cache_reclaim_weight
++
++This is used to speed up page cache reclaim. It depend on enabling
++cache_limit_mbytes/cache_limit_ratio or cache_reclaim_s. Value range is
++from 1(slow) to 100(fast).
++
++The default value is 1.
++
++==============================================================
++
+ compact_memory
+ 
+ Available only when CONFIG_COMPACTION is set. When 1 is written to the file,
+-- 
+1.6.0.2
+
+

@@ -26,22 +26,23 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 
 
 ###Inhaltsverzeichnis
-|			              		                          |       |
-|-------------------------------------------------|-------|
-| 1. Das Unternehmen		                  |      2| 
-| 2. Aufgabenstellung      	                  |	 [2](#2. Aufgabenstellung)|
-| 3. Systemanalyse         	                  |	 3|
-| 4. Design			         	  |	 5|
-| 5. Implementierung		         	  |	 6|
-| 6. Verifizierung		        	  |	8|
-| 7. Abnahme			        	  |	9|
-| 8. Wirtschaftlicher Soll-Ist Vergleich                     | 9|
-| 9. Fazit 	  | 	10|
-| 10. Appendix		         	  |	11|
-|11. Eidesstattliche Erklärung	         	  |	12|
+|			              		  |                               |
+|-------------------------------------------------|-------------------------------|
+| 1. Das Unternehmen		                  |      [2](#1)		  | 
+| 2. Aufgabenstellung      	                  |	 [2](#1)		  |
+| 3. Systemanalyse         	                  |	 [3](#2)                  |
+| 4. Design			         	  |	 [5](#3)                  |
+| 5. Implementierung		         	  |	 [6](#4)                  |
+| 6. Verifizierung		        	  |	 [8](#5)                  |
+| 7. Abnahme			        	  |	 [9](#6)                  |
+| 8. Wirtschaftlicher Soll-Ist Vergleich          |      [9](#6)                  |
+| 9. Fazit 					  | 	 [10](#7)                 |
+| 10. Appendix		      		   	  |	 [11](#8)                 |
+|11. Eidesstattliche Erklärung	         	  |	 [12](#9)                 |
 
 <div style="page-break-after: always;"></div>
 [Seite2]
+<a name="1"></a>
 ####1. Das Unternehmen
 
 Das Projekt findet in der Bildungsakademie Waldshut statt. 
@@ -83,6 +84,7 @@ Die neue Infrastruktur soll folgende Bedingungen erfüllen.
 
 <div style="page-break-after: always;"></div>
 [Seite3]
+<a name="2"></a>
 ####3. Systemanalyse
 
 #####3.1 Ist-Zustand
@@ -141,6 +143,7 @@ Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfül
 
 <div style="page-break-after: always;"></div>
 [Seite5]
+<a name="3"></a>
 ####4. Design
 ![alt text][img1]
 **Fig 1:** *Simplifizierte Darstellung der Virtasia Architektur.*
@@ -152,11 +155,16 @@ verbindet sich mit von Typ 1 Hypervisoren bekannten Mechaniken.
 Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt 
 Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^2] zu verändern.
 
-Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht. 
+Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht.
 
-[^2]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt. 
+Die letzte Stufe des Stacks bildet eine grafische Oberfläche auf XUL Basis. 
+Diese ermöglicht den komfortablen Umgang mit dem System und bietet, dank der Konnektivität zwischen 
+GUI, Userspace und Kernel, maximale Flexibilität.
+
+
 <div style="page-break-after: always;"></div>
 [Seite6]
+<a name="4"></a>
 ####5. Implementierung
 
 Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungszwecken wird der Quellcode vorhandener Softwarelösungen teilweise umgeschrieben. Die Veränderungen werden dokumentiert und die so entstehenden "Patches" den Anlagen beigefügt. 
@@ -191,12 +199,6 @@ Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia 
 
 
 
-[^3]: https://github.com/Happy-Ferret/Anima/tree/master/bin
-[^4]: http://heirloom.sourceforge.net/
-[^5]: ./UI/Virtasia_UI
-[^6]: ./UI/.xinitrc
-[^7]: sudo apt-get install virtualbox
-
 <div style="page-break-after: always;"></div>
 [Seite7]
 #####5.5 Konfiguration des Startvorgangs
@@ -220,6 +222,7 @@ Dies schließt den Implementierungsprozess ab.
 
 <div style="page-break-after: always;"></div>
 [Seite8]
+<a name="5"></a>
 ####6. Verifizierung
 
 Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf einem unbenutzten Laptop installiert. 
@@ -228,6 +231,7 @@ Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem ins
 Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. Da die Hardware derer der Entwicklungsmaschine entspricht, fällt die Verifizierung äußerst zufriedenstellend aus.
 <div style="page-break-after: always;"></div>
 [Seite9]
+<a name="6"></a>
 ####7. Abnahme
 
 Nach der erfolgreichen Verifizierung findet die Abnahme durch den Fachbereich IT der Handwerkskammer Konstanz statt.
@@ -273,7 +277,24 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 
 <div style="page-break-after: always;"></div>
 [Seite11]
-####Anhang/Quellen
+<a name="7"></a>
+####Appendix
 <div style="page-break-after: always;"></div>
-[Seite12]
-####Eidesstattliche Erklärung
+
+[^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability 
+*=* 
+**Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
+[^2]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt.
+[^3]: https://github.com/Happy-Ferret/Anima/tree/master/bin
+[^4]: http://heirloom.sourceforge.net/
+[^5]: ./UI/Virtasia_UI
+[^6]: ./UI/.xinitrc
+[^7]: sudo apt-get install virtualbox
+[^8]: ./boot/Xwrapper.config
+[^9]: ./boot/rc.local
+[^10]: http://sourceforge.net/projects/refracta/files/tools/
+[^11]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
+[^12]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
+
+
+#Appendix

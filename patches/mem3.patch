@@ -1,0 +1,55 @@
+Add hooks when a page is added to page cache.
+
+Signed-off-by: Xishi Qiu <qiuxishi@huawei.com>
+---
+ mm/filemap.c |    3 +++
+ mm/hugetlb.c |    3 +++
+ mm/vmscan.c  |    3 +++
+ 3 files changed, 9 insertions(+), 0 deletions(-)
+
+diff --git a/mm/filemap.c b/mm/filemap.c
+index 088358c..0e71a04 100644
+--- a/mm/filemap.c
++++ b/mm/filemap.c
+@@ -622,6 +622,9 @@ int add_to_page_cache_lru(struct page *page, struct address_space *mapping,
+ 	void *shadow = NULL;
+ 	int ret;
+ 
++	if (vm_cache_limit_mbytes && page_cache_over_limit())
++		shrink_page_cache(gfp_mask);
++
+ 	__set_page_locked(page);
+ 	ret = __add_to_page_cache_locked(page, mapping, offset,
+ 					 gfp_mask, &shadow);
+diff --git a/mm/hugetlb.c b/mm/hugetlb.c
+index c82290b..4dc8173 100644
+--- a/mm/hugetlb.c
++++ b/mm/hugetlb.c
+@@ -2851,6 +2851,9 @@ retry:
+ 			int err;
+ 			struct inode *inode = mapping->host;
+ 
++			if (vm_cache_limit_mbytes && page_cache_over_limit())
++				shrink_page_cache(GFP_KERNEL);
++
+ 			err = add_to_page_cache(page, mapping, idx, GFP_KERNEL);
+ 			if (err) {
+ 				put_page(page);
+diff --git a/mm/vmscan.c b/mm/vmscan.c
+index ad01ff4..707d3e3 100644
+--- a/mm/vmscan.c
++++ b/mm/vmscan.c
+@@ -2977,6 +2977,9 @@ static unsigned long balance_pgdat(pg_data_t *pgdat, int order,
+ 	};
+ 	count_vm_event(PAGEOUTRUN);
+ 
++	if (vm_cache_limit_mbytes && page_cache_over_limit())
++		shrink_page_cache(GFP_KERNEL);
++
+ 	do {
+ 		unsigned long lru_pages = 0;
+ 		unsigned long nr_attempted = 0;
+-- 
+1.6.0.2
+
+

@@ -1,0 +1,17 @@
+diff --git a/mm/vmscan.c b/mm/vmscan.c
+index d179be6..23b808a 100644
+--- a/mm/vmscan.c
++++ b/mm/vmscan.c
+@@ -3430,7 +3430,7 @@ static unsigned long __shrink_page_cache(gfp_t mask)
+ 	struct scan_control sc = {
+ 		.gfp_mask = (mask = memalloc_noio_flags(mask)),
+ 		.may_writepage = !laptop_mode,
+-		.nr_to_reclaim = SWAP_CLUSTER_MAX,
++		.nr_to_reclaim = SWAP_CLUSTER_MAX * vm_cache_reclaim_weight,
+ 		.may_unmap = 1,
+ 		.may_swap = 1,
+ 		.order = 0,
+-- 
+1.6.0.2
+
+
