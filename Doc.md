@@ -1,5 +1,6 @@
 [img1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Architecture.png?token=AB3yOk56-pgL8ss943u4XbRDcaTvGtBKks5UgeBVwA%3D%3D "Simplifizierte Darstellung der Virtasia Architektur."
-[img3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
+
+[img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -28,7 +29,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 
 ###Inhaltsverzeichnis
 |			              		  |                               |
-|-------------------------------------------------|-------------------------------|
+|:------------------------------------------------|------------------------------:|
 | 1. Das Unternehmen		                  |      [2](#1)		  | 
 | 2. Aufgabenstellung      	                  |	 [2](#1)		  |
 | 3. Systemanalyse         	                  |	 [3](#2)                  |
@@ -108,7 +109,7 @@ gelegt. Desweiteren wurde Wert darauf gelegt, möglichst nur auf offene Standard
 
 Da es darum geht, ein sicheres System zu implementieren, welches dem Benutzer nach Möglichkeit vertraut ist, andererseits aber dem Administrator erweiterte Administrations- und Sicherungsmechaniken bietet, fiel die Wahl auf einen spezialisierten "Desktop Hypervisor".
 
-######3.3 Wirtschaftlichkeitsvergleich
+#####3.3 Wirtschaftlichkeitsvergleich
 
 Bei der Auswahl eines Desktop Hypervisors standen folgende Optionen zur Auswahl, welche nachfolgend auf ihre Wirtschaftlichkeit überprüft werden sollen. 
 
@@ -159,7 +160,7 @@ Anders als ein gewöhnlicher Typ 2 (hosted VM) Hypervisor, verfügt
 Virtasia über die Fähigkeit grundlegende, Kernelspezifische Attribute[^3] zu verändern.
 
 Dies wird durch zusätzliche, Userspace basierte Applikationen erreicht.
-Um höchste Effizienz zu gewährleisten, enthält der verwendete Kernel eine Reihe von Speicherpatches und einen alternativen Prozess Scheduler. 
+Um höchste Effizienz zu gewährleisten, enthält der verwendete Kernel außerdem eine Reihe von Speicherpatches und einen alternativen Prozess Scheduler. 
 
 Die letzte Stufe des Stacks bildet eine grafische Oberfläche auf XUL Basis. 
 Diese ermöglicht den komfortablen Umgang mit dem System und bietet, dank der Konnektivität zwischen 
@@ -178,42 +179,42 @@ Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungs
 Auf Grund persönlicher Erfahrungen fällt die Wahl auf Debian "Wheezy". 
 Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Einfachheit bekannt. 
 
-Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in den Anlagen unter ***./patches/kernel***.
+Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in den Anlagen[^4].
 
 #####5.2 Installation des Basissystems
 
 Die Basisdistribution wird, bei eingesteckter und vorkonfigurierter Netzwerkverbindung, direkt von CD installiert. 
-Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript[^4] zu entnehmen.
+Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript[^5] zu entnehmen.
+Der Basiskernel entspricht Linux in der finalen Version 3.15[^6]
 
-Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^5] respektive Unix System V [^6] basierte Tools ersetzt.
+Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^7] respektive Unix System V [^8] basierte Tools ersetzt.
 
 #####5.3 Konfiguration der Benutzeroberfläche
 
 Im nächsten Schritt wird die Benutzeroberfläche installiert. Diese basiert auf Mozillas XUL und verwendet Animas "Aphrodite" Grafikschnittstelle. 
 
-Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Javascript, HTML5, XML und C/C++ stark vereinfacht. So besteht die Definition der kompletten Virtasia Benutzerumgebung[^7] aus weit unter 100 Zeilen Quellcode. 
+Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Javascript, HTML5, XML und C/C++ stark vereinfacht. So besteht die Definition der kompletten Virtasia Benutzerumgebung[^9] aus weit unter 100 Zeilen Quellcode. 
 
-Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in ***.xinitrc***[^8] vermerkt.
-
-#####5.4 Installation des Hypervisors
-
-Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^9]
-Die Installation der Gastsysteme findet über die beigelegte GUI statt. 
-Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia liest dann die, von Virtualbox bereitgestellten, Informationen aus und erzeugt eine eigene Konfigurationsdatei. Diese enthält, neben den Namen der Gastsysteme, dem zum Start eines Gastsystems auszuführenden Befehl. 
-
-
+Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in ***.xinitrc***[^10] vermerkt.
 
 <div style="page-break-after: always;"></div>
 [Seite7]
+
+#####5.4 Installation des Hypervisors
+
+Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^11]
+Die Installation der Gastsysteme findet über die beigelegte GUI statt. 
+Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia liest dann die, von Virtualbox bereitgestellten, Informationen aus und erzeugt eine eigene Konfigurationsdatei. Diese enthält, neben den Namen der Gastsysteme, dem zum Start eines Gastsystems auszuführenden Befehl. 
+
 #####5.5 Konfiguration des Startvorgangs
 
-Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten[^10]. Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt[^11]
+Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten[^12]. Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt[^13]
 
 #####5.6 Erstellung des Installationsmediums
 
-Zur Erstellung des Installationsmediums werden die Refracta Tools[^12] verwendet.
-Die Erzeugung der .iso erfolgt strikt nach der publizierten Dokumentation[^13]
-Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^14] bootfähig gemacht. 
+Zur Erstellung des Installationsmediums werden die Refracta Tools[^14] verwendet.
+Die Erzeugung der .iso erfolgt strikt nach der publizierten Dokumentation[^15]
+Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^16] bootfähig gemacht. 
 
 Dies schließt den Implementierungsprozess ab. 
 
@@ -235,9 +236,6 @@ Nach der erfolgreichen Verifizierung findet die Abnahme durch den Fachbereich IT
 Eine kurze Projektpräsentation soll die Vorteile der Umsetzung verdeutlichen. Eventuelle Unklarheiten werden in der schriftlichen Dokumentation ergänzt. 
 
 Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt.
-
-![alt text][img3]
-**Fig 3:** *Die Virtasia Oberfläche in Aktion*
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
 
@@ -271,30 +269,70 @@ Die Zielgruppe des Projekts sind Auszubildende im überbetrieblichen Unterricht 
 
 Alle Kriterien, mit Ausnahme des vereinfachten Dateisystems, konnten Fristgerecht umgesetzt werden. Letzteres erwies sich letztendlich als unwirtschaftlicher Mehraufwand mit nur geringen, nicht näher nennenswerten Vorteilen. 
 
+Die verwendeten Kernel Patches dagegen, erwiesen sich als äußerst fruchtbar. Intensivere Tests der cache_limit und cache_reclaim Funktionen deuten auf eine mögliche Effizienzsteigerung von bis zu 150% gegenüber einem unlimitiertem 
+"Vanilla" Kernel hin.
+
 Die Umsetzung hat mir tiefere Einblicke in die Funktionsweise Unixoider Betriebssysteme ermöglicht und mich somit für meine zukünftige Tätigkeit in einem Unix/Linux fokusiertem Unternehmen bestens vorbereitet. 
 
 Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstationen der Bildungsakademie Waldshut nun alle nötigen Sicherheitsstandards erfüllen und sich relativ unkompliziert administrieren lassen. 
 
+![alt text][img4]
+**Fig 4:** *Die Virtasia Oberfläche in Aktion*
+
 <div style="page-break-after: always;"></div>
 [Seite11]
 <a name="7"></a>
-####Appendix
+####Quellen
+
+<span>
+<ul>
+ <li>**Patches**
+  <ul>
+   <li>BFS Scheduler: Con Colivas[^17]</li>
+   <li>cache_limit & cache_reclaim: Xishi Qiu[^18]</li>
+  </ul>
+ </li>
+ <li>**Tutorials**
+  <ul>
+   <li>Kernel Kompilierung: HowToGeek "How to Customize Your Ubuntu Kernel"[^19]</li>
+   <li>Mozilla XUL: Mozilla "Getting started with XULRunner"[^20]</li>
+   <li>Markdown: Adam P. "Markdown Cheatsheet"[^21]</li>
+   <li>Linux Befehle: "nixCraft"[^22]</li>
+  </ul>
+ </li>
+ <li>**Konverter**
+  <ul>
+  <li>Markdown zu PDF: "md.topdf"[^23]</li>
+  </ul>
+ </li>
+</ul>
+</span>
+
 <div style="page-break-after: always;"></div>
 
 [^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability 
 *=* 
 **Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
 [^3]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt.
-[^4]: ./patches/install.sh
-[^5]: https://github.com/Happy-Ferret/Anima/tree/master/bin
-[^6]: http://heirloom.sourceforge.net/
-[^7]: ./UI/Media-Center
-[^8]: ./UI/.xinitrc
-[^9]: sudo apt-get install virtualbox
-[^10]: ./boot/Xwrapper.config
-[^11]: ./boot/rc.local
-[^12]: http://sourceforge.net/projects/refracta/files/tools/
-[^13]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
-[^14]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
+[^4]: ./patches
+[^5]: ./patches/install.sh
+[^6]: https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.15.tar.xz
+[^7]: https://github.com/Happy-Ferret/Anima/tree/master/bin
+[^8]: http://heirloom.sourceforge.net/
+[^9]: ./UI/Media-Center
+[^10]: ./UI/.xinitrc
+[^11]: sudo apt-get install virtualbox
+[^12]: ./boot/Xwrapper.config
+[^13]: ./boot/rc.local
+[^14]: http://sourceforge.net/projects/refracta/files/tools/
+[^15]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
+[^16]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
+[^17]: http://ck.kolivas.org/patches/bfs/
+[^18]: http://lwn.net/Articles/602424/
+[^19]: http://www.howtogeek.com/howto/ubuntu/how-to-customize-your-ubuntu-kernel/
+[^20]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/XULRunner/Getting_started_with_XULRunner
+[^21]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[^22]: http://www.cyberciti.biz/faq/
+[^23]: http://md.topdf.com/
 
-#Appendix
+####Appendix
