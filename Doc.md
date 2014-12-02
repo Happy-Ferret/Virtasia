@@ -1,4 +1,5 @@
 [img1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Architecture.png?token=AB3yOk56-pgL8ss943u4XbRDcaTvGtBKks5UgeBVwA%3D%3D "Simplifizierte Darstellung der Virtasia Architektur."
+[img3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -233,7 +234,10 @@ Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtub
 Nach der erfolgreichen Verifizierung findet die Abnahme durch den Fachbereich IT der Handwerkskammer Konstanz statt.
 Eine kurze Projektpräsentation soll die Vorteile der Umsetzung verdeutlichen. Eventuelle Unklarheiten werden in der schriftlichen Dokumentation ergänzt. 
 
-Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt. 
+Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt.
+
+![alt text][img3]
+**Fig 3:** *Die Virtasia Oberfläche in Aktion*
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
 
