@@ -4,7 +4,10 @@
 [img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
 [install]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer.png?token=AB3yOpoe7wSxWz0nGrhT3MylsHMcKCN2ks5Uh7pvwA%3D%3D "Installscript"
 [install2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer2.png?token=AB3yOgBAsV51MA7IzhWx8J1ukSVAF37oks5Uh7pxwA%3D%3D "Installscript"
-
+[UI]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI.png?token=AB3yOpZBK9hftZg44-AeDtvzhaHv8o5eks5Uh7yZwA%3D%3D "UI"
+[UI2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI2.png?token=AB3yOuOaukAdIwNeC68nDvUzkredFbWyks5Uh7ybwA%3D%3D "UI"
+[UI3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI3.png?token=AB3yOgsiIBCWLI5qv-kRmw2-5CfNuO05ks5Uh7ydwA%3D%3D "UI"
+[xinit]:  ".xinitrc
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -255,7 +258,7 @@ Eine kurze Projektpräsentation soll die Vorteile der Umsetzung verdeutlichen. E
 
 Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt.
 
-Die so entstandene Kundendokumentation ist [Anlage 6](#Anlage1) zu entnehmen.
+Die so entstandene Kundendokumentation ist [Anlage 6](#Anlage6) zu entnehmen.
 
 <div style="page-break-after: always;"></div>
 [Seite9]
@@ -345,9 +348,20 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 
 ##### Anlage 2
 
-######Installationsscript
-![alt text][install]
+######Quellcode der Virtasia Benutzeroberfläche
+![alt text][UI]
+![alt text][UI2]
+![alt text][UI3]
 
+##### Anlage 3
+
+######.xinitrc
+![alt text][xinit]
+
+
+#Nur ein kleines "Spielchen", um die Interaktivität des vorliegenden Systems zu zeigen. 
+oneko & oneko -tora & oneko -dog
+```
 
 <div style="page-break-after: always;"></div>
 
