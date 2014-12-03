@@ -10,9 +10,9 @@
 [xinit]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/xinit.png?token=AB3yOsF_b8cy_QsFjVG6W05AR_CDSNxgks5Uh78fwA%3D%3D ".xinitrc"
 [Xwrapper]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Xwrapper.png?token=AB3yOvqN-7IETatYDMS3WlksjTEQqxFIks5Uh8E-wA%3D%3D "Xwrapper.config"
 [rc]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/rc.png?token=AB3yOjw27wJsnE0mMOCV2NtsHljoa43Kks5Uh8E8wA%3D%3D "rc.local"
-[Kunde]:  "Installation"
-[Kunde2]:  "Installation"
-
+[Kunde]:  https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde1.png?token=AB3yOmZ27O7nFJ-HYGP6MeB_MlkwkBKhks5Uh_s4wA%3D%3D "Installation"
+[Kunde2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde2.png?token=AB3yOiRliYd93wiB0EUG1fH60Dt_ovBdks5Uh_s6wA%3D%3D "Installation"
+[Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -391,6 +391,11 @@ Zur Installation eines Gastsystems gehen Sie wie folgt vor.
 ![alt text][Kunde]
 3.Geben Sie zum Fortfahren das, im System hinterlegte, root Passwort ein.
 4. Es erscheint die Virtualbox Administrationskonsole. Von hier aus haben Sie die Möglichkeit vorhandene Gastsysteme zu verwalten, sowie neue Gastsysteme hinzuzufügen.
+![alt text][Kunde2]
+5. Der Wizard führt Sie durch die komplette Konfiguration des Betriebssystems, an dessen Ende Sie ein gültiges Systemimage (.iso oder Installations-CD/DVD/USB) auswählen müssen.
+6. Nach der Installation des Gastsystems, sollten Sie Virtualbox beenden. Der Hostcomputer startet sich dann automatisch neu.
+7. Nach dem Neustart steht das neue Gastsystem unter dem, bei der Erstkonfiguration gewähltem, Namen zur Verfügung.
+
 
 <div style="page-break-after: always;"></div>
 
