@@ -16,8 +16,7 @@
 [Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
 [Ablauf]:  https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Projektablauf.png?token=AB3yOkbnfsUHKv5sznm7rtUi0q1879VLks5UiCyIwA%3D%3D "Projektablaufplan"
 [Cover]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Cover.jpg?token=AB3yOh9Fe480bg6ri1uYrn2Db3AM3PKPks5UiDROwA%3D%3D "Cover"
-
-![alt text][Cover]
+[Affidavit]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Erkl%C3%A4rung.jpg?token=AB3yOoOsYyXPYu-qPgrEHIWTk4LPIclVks5UiDafwA%3D%3D "Erklärung"
 
 ##### Thema
 Bereitstellung sicherer, wirtschaftlicher Betriebsumgebungen auf Basis eines Effizienzoptimierten, ∗nix basierten Hypervisors.
@@ -88,7 +87,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 |10. Quellenangabe				  |	 [14](#11)		  |
 |11. Eidesstattliche Erklärung	         	  |	 [15](#12)                |
 |12. Anlagen					  |      [16](#13)                |
-|13. Appendix		      		   	  |	 [23](#14)                |
+|13. Appendix		      		   	  |	 [24](#14)                |
 
 <div style="page-break-after: always;"></div>
 <a name="1"></a>
@@ -394,6 +393,8 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 </ul>
 </span>
 
+<a name="8"></a>
+![alt text][Affidavit]
 <div style="page-break-after: always;"></div>
 ####12. Anlagen
 
