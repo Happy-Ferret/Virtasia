@@ -15,6 +15,7 @@
 [Kunde3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde3.png?token=AB3yOnTBi6csaIScAklmHu4CvmnF6aAsks5Uh_3ywA%3D%3D "Installation"
 [Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
 [Ablauf]:  https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Projektablauf.png?token=AB3yOkbnfsUHKv5sznm7rtUi0q1879VLks5UiCyIwA%3D%3D "Projektablaufplan"
+[Cover]:  "Cover"
 
 ##### Thema
 Bereitstellung sicherer, wirtschaftlicher Betriebsumgebungen auf Basis eines Effizienzoptimierten, ∗nix basierten Hypervisors.
@@ -194,7 +195,7 @@ Der Großteil der Virtasia spezifischen Konfigurationszeit wird mit der Erstellu
 [^2]: http://store.citrix.com/store/citrix/pd/productID.264563600/pgm.94634900/ThemeID.37713000
 
 <div style="page-break-after: always;"></div>
-[Seite4]
+
 
 Die Gesamtkostenrechnung geht von den ungefähren Kosten der ersten zwei Jahre aus. Die Kosten für Updates sind im Falle von Virtasia variabel und der technische Support erfolgt durch die IT Abteilung der Handwerkskammer, welche durch eine umfangreiche Dokumentationssammlung unterstützt wird. Zur Vereinfachung der Kalkulation wird von einem jährlichen Kostenaufwand von 100 Stunden ausgegangen. In diesem ist die Erweiterung des Dokumentationsmaterials und die Applizierung jeglicher Softwareupdates bereits inbegriffen.
 
@@ -244,7 +245,7 @@ GUI, Userspace und Kernel, maximale Flexibilität.
 
 
 <div style="page-break-after: always;"></div>
-[Seite6]
+
 <a name="4"></a>
 ####5. Implementierung
 
@@ -274,7 +275,7 @@ Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Ja
 Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in .xinitrc ([Anlage 3](#Anlage3)) vermerkt.
 
 <div style="page-break-after: always;"></div>
-[Seite7]
+
 
 #####5.4 Installation des Hypervisors
 
@@ -297,7 +298,7 @@ Dies schließt den Implementierungsprozess ab.
 **Fig. 4:** *Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt.*
 
 <div style="page-break-after: always;"></div>
-[Seite8]
+
 <a name="5"></a>
 ####6. Verifizierung
 
@@ -318,7 +319,7 @@ Als letzter Schritt werden Dokumentation und Software zur internen Git Versionsk
 Die so entstandene Kundendokumentation ist [Anlage 6](#Anlage6) zu entnehmen.
 
 <div style="page-break-after: always;"></div>
-[Seite9]
+
 <a name="6"></a>
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
@@ -344,7 +345,7 @@ Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen.
 |**Gesamt**                       | **35 Std**                |   |                **34 Std**                |
 
 <div style="page-break-after: always;"></div>
-[Seite10]
+
 ####9. Fazit
 
 Ergebnis des Projekts ist ein moderner Desktop Hypervisor, zur sicheren, effizienten und performanten Ausführung von Gastbetriebssystemen. 
@@ -364,7 +365,6 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 **Fig. 6:** *Die Virtasia Oberfläche in Aktion*
 
 <div style="page-break-after: always;"></div>
-[Seite11]
 <a name="7"></a>
 ####10. Quellen
 
