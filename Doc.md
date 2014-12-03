@@ -15,7 +15,9 @@
 [Kunde3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde3.png?token=AB3yOnTBi6csaIScAklmHu4CvmnF6aAsks5Uh_3ywA%3D%3D "Installation"
 [Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
 [Ablauf]:  https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Projektablauf.png?token=AB3yOkbnfsUHKv5sznm7rtUi0q1879VLks5UiCyIwA%3D%3D "Projektablaufplan"
-[Cover]:  "Cover"
+[Cover]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Cover.jpg?token=AB3yOh9Fe480bg6ri1uYrn2Db3AM3PKPks5UiDROwA%3D%3D "Cover"
+
+![alt text][Cover]
 
 ##### Thema
 Bereitstellung sicherer, wirtschaftlicher Betriebsumgebungen auf Basis eines Effizienzoptimierten, ∗nix basierten Hypervisors.
