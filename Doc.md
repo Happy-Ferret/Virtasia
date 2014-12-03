@@ -1,6 +1,6 @@
 [img1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Architecture.png?token=AB3yOk56-pgL8ss943u4XbRDcaTvGtBKks5UgeBVwA%3D%3D "Simplifizierte Darstellung der Virtasia Architektur."
 [img2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Konfiguration.png?token=AB3yOvFwcwCDyur9ta3uP_T5xC4UaE4Mks5UhstuwA%3D%3D "Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt."
-[img3]:
+[img3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Guest.png?token=AB3yOlIIA9_FcYlEr2jYeRn6B1zoLRFsks5UiBX6wA%3D%3D
 [img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
 [install]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer.png?token=AB3yOpoe7wSxWz0nGrhT3MylsHMcKCN2ks5Uh7pvwA%3D%3D "Installscript"
 [install2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer2.png?token=AB3yOgBAsV51MA7IzhWx8J1ukSVAF37oks5Uh7pxwA%3D%3D "Installscript"
@@ -15,7 +15,25 @@
 [Kunde3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde3.png?token=AB3yOnTBi6csaIScAklmHu4CvmnF6aAsks5Uh_3ywA%3D%3D "Installation"
 [Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
 
-###### Kurze Projektbeschreibung
+##### Thema
+Bereitstellung sicherer, wirtschaftlicher Betriebsumgebungen auf Basis eines Effizienzoptimierten, ∗nix basierten Hypervisors.
+
+##### Bearbeiter
+Markus Bauermeister
+
+##### Betreuer 
+Herr Andreas Ferro
+
+##### Ausbildungsstätte
+Handwerkskammer Konstanz <p>
+Webersteig 3 <p>
+78462 Konstanz
+
+##### Zeitraum
+
+14.11.2014 - 03.12.2014 (35 Stunden)
+
+##### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
 Diese soll mehr Sicherheit und Flexibilität gegenüber einer "nativen" Betriebssysteminstallation bieten. 
 
@@ -35,38 +53,38 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 
 
 
-
+<div style="page-break-after: always;"></div>
 
 
 
 ###Inhaltsverzeichnis
 |			              		  |                               |
 |:------------------------------------------------|------------------------------:|
-| 1. Das Unternehmen			          |      [2](#1)		  | 
-| 2. Aufgabenstellung und Planung			          |      [2](#1)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.1 Projektumfeld</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.2 Zeitplan</li></ul> 	          |      [3](#2)		  |
-| 3. Systemanalyse         	                  |	 [3](#3)                  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.1 Ist-Zustand</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.2 Soll-Konzept</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.3 Wirtschaftlichkeitsvergleich</li></ul> 	          |      [3](#2)  |		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.4 Projektablaufplan</li></ul> 	          |      [3](#2)		  |
-| 4. Design			                  |      [2](#1)		  |
-| 5. Implementierung			          |      [2](#1)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.1 Auswahl der Basisdistribution</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.2 Installation des Basissystems</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.3 Konfiguration der Benutzeroberfläche</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.4 Installation des Hypervisors</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.5 Konfiguration des Startvorgangs</li></ul> 	          |      [3](#2)		  |
-| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.6 Erstellung des Installationsmediums</li></ul> 	          |      [3](#2)		  |
-| 6. Verifizierung		        	  |	 [8](#6)                  |
-| 7. Abnahme			        	  |	 [9](#7)                  |
-| 8. Wirtschaftlicher Soll-Ist Vergleich          |      [9](#8)                  |
-| 9. Fazit 					  | 	 [10](#9)                 |
-|10. Quellenangabe				  |	 [11](#10)		  |
-|11. Eidesstattliche Erklärung	         	  |	 [11](#10)                |
-|12. Anlagen					  |      [12](#11)                |
-|13. Appendix		      		   	  |	 [13](#12)                |
+| 1. Das Unternehmen			          |      [3](#1)		  | 
+| 2. Aufgabenstellung und Planung			          |      [3](#1)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.1 Projektumfeld</li></ul> 	          |      [4](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.2 Zeitplan</li></ul> 	          |      [4](#2)		  |
+| 3. Systemanalyse         	                  |	 [5](#3)                  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.1 Ist-Zustand</li></ul> 	          |      [5](#3)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.2 Soll-Konzept</li></ul> 	          |      [5](#3)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.3 Wirtschaftlichkeitsvergleich</li></ul> 	          |      [5](#3)  |		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.4 Projektablaufplan</li></ul> 	          |      [7](#4)		  |
+| 4. Design			                  |      [8](#5)		  |
+| 5. Implementierung			          |      [9](#6)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.1 Auswahl der Basisdistribution</li></ul> 	          |      [9](#6)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.2 Installation des Basissystems</li></ul> 	          |      [9](#6)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.3 Konfiguration der Benutzeroberfläche</li></ul> 	          |      [9](#6)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.4 Installation des Hypervisors</li></ul> 	          |      [10](#7)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.5 Konfiguration des Startvorgangs</li></ul> 	          |      [10](#7)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.6 Erstellung des Installationsmediums</li></ul> 	          |      [10](#7)		  |
+| 6. Verifizierung		        	  |	 [11](#8)                  |
+| 7. Abnahme			        	  |	 [11](#8)                  |
+| 8. Wirtschaftlicher Soll-Ist Vergleich          |      [12](#9)                  |
+| 9. Fazit 					  | 	 [13](#10)                 |
+|10. Quellenangabe				  |	 [14](#11)		  |
+|11. Eidesstattliche Erklärung	         	  |	 [15](#12)                |
+|12. Anlagen					  |      [16](#13)                |
+|13. Appendix		      		   	  |	 [23](#14)                |
 
 <div style="page-break-after: always;"></div>
 <a name="1"></a>
@@ -126,7 +144,7 @@ Folgende Zeiten wurden für das Projekt geplant.
 |-------------------------------------------------------------|--------------------:|
 |Projektvorbereitung (Systemanalyse, Zeitplanung)	      |    1 Std            |
 |Installation der Entwicklungs- bzw. Testumgebung             |    1 Std            |                            
-| Installation und Grobdokumentation der nötigen Komponente   |  15 Std		    |        
+| Installation und Grobdokumentation der nötigen Komponenten  |  15 Std		    |        
 | Erstellung eines geeigneten .iso Abbildes      	      | 2 Std 		    |                        
 |Verifizierung und Funktionstests  			      |          2 Std      |                       
 |Softwareverteilung                                           |   4 Std             |                            
@@ -278,6 +296,8 @@ Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf eine
 
 Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem installiert und ausgiebig getestet. 
 Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. Da die Hardware derer der Entwicklungsmaschine entspricht, fällt die Verifizierung äußerst zufriedenstellend aus.
+
+![alt text][img3] **Fig. 4:** *Intensiver Test eines Ubuntu Gastsystems mit WindowMaker als Desktop*
 
 ####7. Abnahme
 
