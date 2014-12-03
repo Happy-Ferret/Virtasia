@@ -50,7 +50,7 @@ Die Umsetzung des Projekts erfolgt im Schulungsbereich der, der Handwerkskammer
 untergeordneten, Bildungsakademien.
 
 Hierbei ist vorallem darauf zu achten, dass das Resultat sicher und transparent ist. Nicht zuletzt
-ist eine gewisse Ausfallsicherheit unerlässlich.
+ist eine gewisse Softwareausfallsicherheit unerlässlich.
 
 Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 
@@ -97,7 +97,7 @@ Das Projekt findet in der Bildungsakademie Waldshut statt.
 Die Bildungsakademie ist eine, der Handwerkskammer untergeordnete, Lehrinstitution zur überberuflichen Bildung
 von Auszubildenden im Handwerk. 
 
-Die Bildungsakademie Waldshut begleitet Auszubildende in den Bereichen KFZ, Elektrotechnik, Mediengestaltung, sowie dem Maler- und Schreinerhandwerk. 
+Die Bildungsakademie Waldshut begleitet Auszubildende in den Bereichen KFZ, Elektrotechnik, sowie dem Maler- und Schreinerhandwerk. 
 
 Desweiteren richtet sich die Bildungsakademie, mit ihren zahlreichen Fort- und Weiterbildungsmaßnahmen, an Arbeitssuchende und Wiedereinsteiger. 
 
@@ -135,11 +135,11 @@ Die neue Infrastruktur soll folgende Bedingungen erfüllen.
 ![alt text][Aufbau] **Fig. 1:** *Hardwareausstattung "Elektrotechnik UEBA"*
 
 Die Abteilung "Elektrotechnik UEBA" enthält 30 Lehrlingslaptops und einen Lehrer PC. Die fertige Endlösung soll auf allen 30 Laptops laufen. Der Lehrer PC wird ausschließlich zu Administrationszwecken in Betrieb genommen.
-Alle Geräte sind über einen Wifi Access Point miteinander verbunden. Die Kommunikation zwischen den einzelnen Geräte und zum Drucker findet prinzipiell drahtlos statt.
+Alle Geräte sind über einen Wifi Access Point miteinander verbunden. Die Kommunikation zwischen den einzelnen Geräten und zum Drucker findet prinzipiell drahtlos statt.
 
 ####2.2 Zeitplan
 
-Das Projekt wurde am 14.11.2014 begonnen und am 03.11.2014 abgeschlossen. 
+Das Projekt wurde am 14.11.2014 begonnen und am 03.12.2014 abgeschlossen. 
 
 Folgende Zeiten wurden für das Projekt geplant.
 
