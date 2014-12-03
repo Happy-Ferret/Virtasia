@@ -7,7 +7,9 @@
 [UI]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI.png?token=AB3yOpZBK9hftZg44-AeDtvzhaHv8o5eks5Uh7yZwA%3D%3D "UI"
 [UI2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI2.png?token=AB3yOuOaukAdIwNeC68nDvUzkredFbWyks5Uh7ybwA%3D%3D "UI"
 [UI3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI3.png?token=AB3yOgsiIBCWLI5qv-kRmw2-5CfNuO05ks5Uh7ydwA%3D%3D "UI"
-[xinit]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/xinit.png?token=AB3yOsF_b8cy_QsFjVG6W05AR_CDSNxgks5Uh78fwA%3D%3D ".xinitrc
+[xinit]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/xinit.png?token=AB3yOsF_b8cy_QsFjVG6W05AR_CDSNxgks5Uh78fwA%3D%3D ".xinitrc"
+[Xwrapper]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Xwrapper.png?token=AB3yOvqN-7IETatYDMS3WlksjTEQqxFIks5Uh8E-wA%3D%3D "Xwrapper.config"
+[rc]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/rc.png?token=AB3yOjw27wJsnE0mMOCV2NtsHljoa43Kks5Uh8E8wA%3D%3D "rc.local"
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -45,6 +47,8 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.1 Ist-Zustand</li></ul> 	          |      [3](#2)		  |
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.2 Soll-Konzept</li></ul> 	          |      [3](#2)		  |
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.3 Wirtschaftlichkeitsvergleich</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.4 Projektablaufplan</li></ul> 	          |      [3](#2)		  |
+
 | 5. Implementierung		         	  |	 [6](#5)                  |
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.1 Auswahl der Basisdistribution</li></ul> 	          |      [3](#2)		  |
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.2 Installation des Basissystems</li></ul> 	          |      [3](#2)		  |
@@ -358,10 +362,15 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 ######.xinitrc
 ![alt text][xinit]
 
+<div style="page-break-after: always;"></div>
 
-#Nur ein kleines "Spielchen", um die Interaktivität des vorliegenden Systems zu zeigen. 
-oneko & oneko -tora & oneko -dog
-```
+##### Anlage 4
+######Xwrapper.config
+![alt text][Xwrapper]
+
+##### Anlage 5
+######rc.local
+![alt text][rc]
 
 <div style="page-break-after: always;"></div>
 
