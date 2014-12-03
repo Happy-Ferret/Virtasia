@@ -2,10 +2,10 @@
 [img2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Konfiguration.png?token=AB3yOvFwcwCDyur9ta3uP_T5xC4UaE4Mks5UhstuwA%3D%3D "Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt."
 [img3]:
 [img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
-[patch1]:
-[patch2]:
-[patch3]:
-[patch4]:
+[patch1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch1.png?token=AB3yOmlGTT0DKNQ0aWiaE4B4CYffpLDjks5Uh7XEwA%3D%3D "Patch"
+[patch2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch2.png?token=AB3yOgDuYl_eBZa0f6gnDj20jKljtkM4ks5Uh7XHwA%3D%3D "Patch"
+[patch3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch3.png?token=AB3yOj9IpWLX647IQZJvJEdo4cHWKt9Gks5Uh7XIwA%3D%3D "Patch"
+[patch4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch4.png?token=AB3yOvgLyhgY4r-GP7z9N_P4zUH9pnX3ks5Uh7XKwA%3D%3D "Patch"
 [patch5]:
 [patch6]:
 [patch7]:
@@ -203,12 +203,12 @@ Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungs
 Auf Grund persönlicher Erfahrungen fällt die Wahl auf Debian "Wheezy". 
 Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Simplizität bekannt. 
 
-Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in [Anlage 1](#Anlage1).
+Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches stammen aus bekannten und authentifizierten Quellen[^11][^12] .
 
 #####5.2 Installation des Basissystems
 
 Die Basisdistribution wird, bei eingesteckter und vorkonfigurierter Netzwerkverbindung, direkt von CD installiert. 
-Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript ([Anlage 2](#Anlage2)) zu entnehmen.
+Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript ([Anlage 1](#Anlage1)) zu entnehmen.
 Der Basiskernel entspricht Linux in der finalen Version 3.15[^4]
 
 Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^5] respektive Unix System V [^6] basierte Tools ersetzt.
@@ -343,24 +343,7 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 
 ##### Anlage 1
 
-###### Xishi Qius "cache_limit & cache_reclaim"
 
-######1.1
-
-
-######1.2
-
-######1.3
-
-######1.4
-
-######1.5
-
-######1.6
-
-######1.7
-
-######1.8
 
 <div style="page-break-after: always;"></div>
 
