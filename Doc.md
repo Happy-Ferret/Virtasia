@@ -14,6 +14,7 @@
 [Kunde2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde2.png?token=AB3yOiRliYd93wiB0EUG1fH60Dt_ovBdks5Uh_s6wA%3D%3D "Installation"
 [Kunde3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Kunde3.png?token=AB3yOnTBi6csaIScAklmHu4CvmnF6aAsks5Uh_3ywA%3D%3D "Installation"
 [Aufbau]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Aufbau.png?token=AB3yOgauRfD5si1b0lhb7ebZwr97E6V3ks5Uh_s2wA%3D%3D "Aufbau"
+[Ablauf]:  https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Projektablauf.png?token=AB3yOkbnfsUHKv5sznm7rtUi0q1879VLks5UiCyIwA%3D%3D "Projektablaufplan"
 
 ##### Thema
 Bereitstellung sicherer, wirtschaftlicher Betriebsumgebungen auf Basis eines Effizienzoptimierten, ∗nix basierten Hypervisors.
@@ -213,11 +214,19 @@ Auf Grund der deutlich niedrigeren Gesamtkosten und zu erwartenden Instandhaltun
 Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfüllen, wird hierbei auf ein modifiziertes GNU/Linux zurückgegriffen.
 
 <div style="page-break-after: always;"></div>
-[Seite5]
+
 <a name="3"></a>
+
+#####3.4 Projektablaufplan
+
+![alt text][Ablauf]
+**Fig. 2:** *Projektablaufdiagram*
+
+<div style="page-break-after: always;"></div>
+
 ####4. Design
 ![alt text][img1]
-**Fig. 2:** *Simplifizierte Darstellung der Virtasia Architektur.*
+**Fig. 3:** *Simplifizierte Darstellung der Virtasia Architektur.*
 
 Wie dem obenstehenden Schaubild zu entnehmen ist, handelt es sich bei Virtasia
 um eine Mischform. Die grundlegende Architektur eines Typ 2 Hypervisors 
@@ -285,7 +294,7 @@ Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf 
 Dies schließt den Implementierungsprozess ab.
 
 ![alt text][img2]
-**Fig. 3:** *Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt.*
+**Fig. 4:** *Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt.*
 
 <div style="page-break-after: always;"></div>
 [Seite8]
@@ -297,7 +306,7 @@ Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf eine
 Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem installiert und ausgiebig getestet. 
 Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. Da die Hardware derer der Entwicklungsmaschine entspricht, fällt die Verifizierung äußerst zufriedenstellend aus.
 
-![alt text][img3] **Fig. 4:** *Intensiver Test eines Ubuntu Gastsystems mit WindowMaker als Desktop*
+![alt text][img3] **Fig. 5:** *Intensiver Test eines Ubuntu Gastsystems mit WindowMaker als Desktop*
 
 ####7. Abnahme
 
@@ -352,7 +361,7 @@ Die Umsetzung hat mir tiefere Einblicke in die Funktionsweise Unixoider Betriebs
 Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstationen der Bildungsakademie Waldshut nun alle nötigen Sicherheitsstandards erfüllen und sich relativ unkompliziert administrieren lassen. 
 
 ![alt text][img4]
-**Fig. 5:** *Die Virtasia Oberfläche in Aktion*
+**Fig. 6:** *Die Virtasia Oberfläche in Aktion*
 
 <div style="page-break-after: always;"></div>
 [Seite11]
