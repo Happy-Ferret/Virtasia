@@ -2,14 +2,8 @@
 [img2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Konfiguration.png?token=AB3yOvFwcwCDyur9ta3uP_T5xC4UaE4Mks5UhstuwA%3D%3D "Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt."
 [img3]:
 [img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
-[patch1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch1.png?token=AB3yOmlGTT0DKNQ0aWiaE4B4CYffpLDjks5Uh7XEwA%3D%3D "Patch"
-[patch2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch2.png?token=AB3yOgDuYl_eBZa0f6gnDj20jKljtkM4ks5Uh7XHwA%3D%3D "Patch"
-[patch3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch3.png?token=AB3yOj9IpWLX647IQZJvJEdo4cHWKt9Gks5Uh7XIwA%3D%3D "Patch"
-[patch4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/patch4.png?token=AB3yOvgLyhgY4r-GP7z9N_P4zUH9pnX3ks5Uh7XKwA%3D%3D "Patch"
-[patch5]:
-[patch6]:
-[patch7]:
-[patch8]:
+[install]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer.png?token=AB3yOpoe7wSxWz0nGrhT3MylsHMcKCN2ks5Uh7pvwA%3D%3D "Installscript"
+[install2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/installer2.png?token=AB3yOgBAsV51MA7IzhWx8J1ukSVAF37oks5Uh7pxwA%3D%3D "Installscript"
 
 
 ###### Kurze Projektbeschreibung
@@ -343,6 +337,16 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 
 ##### Anlage 1
 
+######Installationsscript
+![alt text][install]
+![alt text][install2]
+
+<div style="page-break-after: always;"></div>
+
+##### Anlage 2
+
+######Installationsscript
+![alt text][install]
 
 
 <div style="page-break-after: always;"></div>
