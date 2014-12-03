@@ -1,7 +1,16 @@
 [img1]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Architecture.png?token=AB3yOk56-pgL8ss943u4XbRDcaTvGtBKks5UgeBVwA%3D%3D "Simplifizierte Darstellung der Virtasia Architektur."
-[img2]: 
+[img2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Konfiguration.png?token=AB3yOvFwcwCDyur9ta3uP_T5xC4UaE4Mks5UhstuwA%3D%3D "Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt."
 [img3]:
 [img4]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/Running.png?token=AB3yOnVMqEupVk1qN-uz6CRXNOv94pbyks5UhmsbwA%3D%3D "Virtasia in Aktion."
+[patch1]:
+[patch2]:
+[patch3]:
+[patch4]:
+[patch5]:
+[patch6]:
+[patch7]:
+[patch8]:
+
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
@@ -31,17 +40,29 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 ###Inhaltsverzeichnis
 |			              		  |                               |
 |:------------------------------------------------|------------------------------:|
-| 1. Das Unternehmen		                  |      [2](#1)		  | 
-| 2. Aufgabenstellung      	                  |	 [2](#1)		  |
-| 3. Systemanalyse         	                  |	 [3](#2)                  |
-| 4. Design			         	  |	 [5](#3)                  |
-| 5. Implementierung		         	  |	 [6](#4)                  |
-| 6. Verifizierung		        	  |	 [8](#5)                  |
-| 7. Abnahme			        	  |	 [9](#6)                  |
-| 8. Wirtschaftlicher Soll-Ist Vergleich          |      [9](#6)                  |
-| 9. Fazit 					  | 	 [10](#7)                 |
-| 10. Appendix		      		   	  |	 [11](#8)                 |
-|11. Eidesstattliche Erklärung	         	  |	 [12](#9)                 |
+| 1. Das Unternehmen			          |      [2](#1)		  | 
+| 2. Aufgabenstellung			          |      [2](#1)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.1 Projektumfeld</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">2.2 Terminplan</li></ul> 	          |      [3](#2)		  |
+| 3. Systemanalyse         	                  |	 [3](#3)                  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.1 Ist-Zustand</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.2 Soll-Konzept</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">3.3 Wirtschaftlichkeitsvergleich</li></ul> 	          |      [3](#2)		  |
+| 5. Implementierung		         	  |	 [6](#5)                  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.1 Auswahl der Basisdistribution</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.2 Installation des Basissystems</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.3 Konfiguration der Benutzeroberfläche</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.4 Installation des Hypervisors</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.5 Konfiguration des Startvorgangs</li></ul> 	          |      [3](#2)		  |
+| <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.6 Erstellung des Installationsmediums</li></ul> 	          |      [3](#2)		  |
+| 6. Verifizierung		        	  |	 [8](#6)                  |
+| 7. Abnahme			        	  |	 [9](#7)                  |
+| 8. Wirtschaftlicher Soll-Ist Vergleich          |      [9](#8)                  |
+| 9. Fazit 					  | 	 [10](#9)                 |
+|10. Quellenangabe				  |	 [11](#10)		  |
+|11. Eidesstattliche Erklärung	         	  |	 [11](#10)                |
+|12. Anlagen					  |      [12](#11)                |
+|13. Appendix		      		   	  |	 [13](#12)                |
 
 <div style="page-break-after: always;"></div>
 [Seite2]
@@ -84,6 +105,8 @@ Die neue Infrastruktur soll folgende Bedingungen erfüllen.
 *=* 
 **Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
 
+<div style="page-break-after: always;"></div>
+<a name="2"></a>
 
 <div style="page-break-after: always;"></div>
 [Seite3]
@@ -178,46 +201,48 @@ Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungs
 #####5.1 Auswahl der Basisdistribution
 
 Auf Grund persönlicher Erfahrungen fällt die Wahl auf Debian "Wheezy". 
-Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Einfachheit bekannt. 
+Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Simplizität bekannt. 
 
-Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in den Anlagen[^4].
+Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches finden sich in [Anlage 1](#Anlage1).
 
 #####5.2 Installation des Basissystems
 
 Die Basisdistribution wird, bei eingesteckter und vorkonfigurierter Netzwerkverbindung, direkt von CD installiert. 
-Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript[^5] zu entnehmen.
-Der Basiskernel entspricht Linux in der finalen Version 3.15[^6]
+Im Anschluss erfolgt der Austausch des Kernels. Der genaue Vorgang hierfür ist dem Installationsscript ([Anlage 2](#Anlage2)) zu entnehmen.
+Der Basiskernel entspricht Linux in der finalen Version 3.15[^4]
 
-Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^7] respektive Unix System V [^8] basierte Tools ersetzt.
+Zur Wahrung von Softwarestandards werden einige GNU Komponenten durch Anima[^5] respektive Unix System V [^6] basierte Tools ersetzt.
 
 #####5.3 Konfiguration der Benutzeroberfläche
 
 Im nächsten Schritt wird die Benutzeroberfläche installiert. Diese basiert auf Mozillas XUL und verwendet Animas "Aphrodite" Grafikschnittstelle. 
 
-Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Javascript, HTML5, XML und C/C++ stark vereinfacht. So besteht die Definition der kompletten Virtasia Benutzerumgebung[^9] aus weit unter 100 Zeilen Quellcode. 
+Die Erzeugung einer kompletten grafischen Umgebung wird dank der Mischung aus Javascript, HTML5, XML und C/C++ stark vereinfacht. So besteht die Definition der kompletten [Virtasia Benutzerumgebung](#Anlage2) (Anlage 2) aus weit unter 100 Zeilen Quellcode. 
 
-Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in ***.xinitrc***[^10] vermerkt.
+Zur Installation wird lediglich das Paket in den Home Ordner des superusers verschoben und die Position in [.xinitrc](#Anlage3)(Anlage 3) vermerkt.
 
 <div style="page-break-after: always;"></div>
 [Seite7]
 
 #####5.4 Installation des Hypervisors
 
-Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^11]
+Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^7]
 Die Installation der Gastsysteme findet über die beigelegte GUI statt. 
 Im Anschluss wird Virtasia aus dem Installationsverzeichnis gestartet. Virtasia liest dann die, von Virtualbox bereitgestellten, Informationen aus und erzeugt eine eigene Konfigurationsdatei. Diese enthält, neben den Namen der Gastsysteme, dem zum Start eines Gastsystems auszuführenden Befehl. 
 
 #####5.5 Konfiguration des Startvorgangs
 
-Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten[^12]. Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt[^13]
+Um einen Verzögerungsfreien und komfortablen Systemstart zu gewährleisten, werden Veränderungen an den GNU/Linux eigenen Bootroutinen vorgenommen. Dem System wird gestattet, eine grafische Session auch als nicht-root zu starten ([Anlage 4](#Anlage4)). Außerdem wird die Virtasia GUI als erstes zu startendes Programm festgelegt ([Anlage 5](#Anlage5)).
 
 #####5.6 Erstellung des Installationsmediums
 
-Zur Erstellung des Installationsmediums werden die Refracta Tools[^14] verwendet.
-Die Erzeugung der .iso erfolgt strikt nach der publizierten Dokumentation[^15]
-Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^16] bootfähig gemacht. 
+Zur Erstellung des Installationsmediums werden die Refracta Tools[^8] verwendet.
+Die Erzeugung der .iso erfolgt strikt nach der publizierten Dokumentation[^9]
+Anschließend wird die erzeugte .iso Datei auf einen USB Stick kopiert und, auf einem Windows PC, per "Universal USB Installer"[^10] bootfähig gemacht. 
+Dies schließt den Implementierungsprozess ab.
 
-Dies schließt den Implementierungsprozess ab. 
+![alt text][img2]
+**Fig 2:** *Die Konfiguration des Kernels findet bequem über eine grafische ncurses Oberfläche statt.*
 
 <div style="page-break-after: always;"></div>
 [Seite8]
@@ -228,15 +253,19 @@ Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf eine
 
 Um die Funktionsfähigkeit sicherzustellen, wird Ubuntu 14.10 als Gastsystem installiert und ausgiebig getestet. 
 Audio, Grafik und generelle Performanz werden durch das Abspielen einiger Youtube Videos beim gleichzeitigen Ausführen von glxgears getestet. Da die Hardware derer der Entwicklungsmaschine entspricht, fällt die Verifizierung äußerst zufriedenstellend aus.
-<div style="page-break-after: always;"></div>
-[Seite9]
-<a name="6"></a>
+
 ####7. Abnahme
 
 Nach der erfolgreichen Verifizierung findet die Abnahme durch den Fachbereich IT der Handwerkskammer Konstanz statt.
 Eine kurze Projektpräsentation soll die Vorteile der Umsetzung verdeutlichen. Eventuelle Unklarheiten werden in der schriftlichen Dokumentation ergänzt. 
 
 Als letzter Schritt werden Dokumentation und Software zur internen Git Versionskontrolle hinzugefügt.
+
+Die so entstandene Kundendokumentation ist [Anlage 6](#Anlage1) zu entnehmen.
+
+<div style="page-break-after: always;"></div>
+[Seite9]
+<a name="6"></a>
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
 
@@ -283,31 +312,55 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 <div style="page-break-after: always;"></div>
 [Seite11]
 <a name="7"></a>
-####Quellen
+####10. Quellen
 
 <span>
 <ul>
  <li>**Patches**
   <ul>
-   <li>BFS Scheduler: Con Colivas[^17]</li>
-   <li>cache_limit & cache_reclaim: Xishi Qiu[^18]</li>
+   <li>BFS Scheduler: Con Colivas[^11]</li>
+   <li>cache_limit & cache_reclaim: Xishi Qiu[^12]</li>
   </ul>
  </li>
  <li>**Tutorials**
   <ul>
-   <li>Kernel Kompilierung: HowToGeek "How to Customize Your Ubuntu Kernel"[^19]</li>
-   <li>Mozilla XUL: Mozilla "Getting started with XULRunner"[^20]</li>
-   <li>Markdown: Adam P. "Markdown Cheatsheet"[^21]</li>
-   <li>Linux Befehle: "nixCraft"[^22]</li>
+   <li>Kernel Kompilierung: HowToGeek "How to Customize Your Ubuntu Kernel"[^13]</li>
+   <li>Mozilla XUL: Mozilla "Getting started with XULRunner"[^14]</li>
+   <li>Markdown: Adam P. "Markdown Cheatsheet"[^15]</li>
+   <li>Linux Befehle: "nixCraft"[^16]</li>
   </ul>
  </li>
  <li>**Konverter**
   <ul>
-  <li>Markdown zu PDF: "md.topdf"[^23]</li>
+  <li>Markdown zu PDF: "md.topdf"[^17]</li>
   </ul>
  </li>
 </ul>
 </span>
+
+<div style="page-break-after: always;"></div>
+####12. Anlagen
+
+##### Anlage 1
+
+###### Xishi Qius "cache_limit & cache_reclaim"
+
+######1.1
+
+
+######1.2
+
+######1.3
+
+######1.4
+
+######1.5
+
+######1.6
+
+######1.7
+
+######1.8
 
 <div style="page-break-after: always;"></div>
 
@@ -315,25 +368,19 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 *=* 
 **Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
 [^3]: Als Beispiel seien die Ressourcenauslastung, sowie die Fähigkeit das komplette System von innerhalb des Hypervisors auszuschalten, genannt.
-[^4]: ./patches
-[^5]: ./patches/install.sh
-[^6]: https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.15.tar.xz
-[^7]: https://github.com/Happy-Ferret/Anima/tree/master/bin
-[^8]: http://heirloom.sourceforge.net/
-[^9]: ./UI/Media-Center
-[^10]: ./UI/.xinitrc
-[^11]: sudo apt-get install virtualbox
-[^12]: ./boot/Xwrapper.config
-[^13]: ./boot/rc.local
-[^14]: http://sourceforge.net/projects/refracta/files/tools/
-[^15]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
-[^16]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
-[^17]: http://ck.kolivas.org/patches/bfs/
-[^18]: http://lwn.net/Articles/602424/
-[^19]: http://www.howtogeek.com/howto/ubuntu/how-to-customize-your-ubuntu-kernel/
-[^20]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/XULRunner/Getting_started_with_XULRunner
-[^21]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[^22]: http://www.cyberciti.biz/faq/
-[^23]: http://md.topdf.com/
+[^4]: https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.15.tar.xz
+[^5]: https://github.com/Happy-Ferret/Anima/tree/master/bin
+[^6]: http://heirloom.sourceforge.net/
+[^7]: sudo apt-get install virtualbox
+[^8]: http://sourceforge.net/projects/refracta/files/tools/
+[^9]: http://www.pacificsimplicity.ca/blog/creating-livecd-existing-debian-installation-or-vm
+[^10]: http://www.chip.de/downloads/Universal-USB-Installer_56810883.html
+[^11]: http://ck.kolivas.org/patches/bfs/
+[^12]: http://lwn.net/Articles/602424/
+[^13]: http://www.howtogeek.com/howto/ubuntu/how-to-customize-your-ubuntu-kernel/
+[^14]: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/XULRunner/Getting_started_with_XULRunner
+[^15]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[^16]: http://www.cyberciti.biz/faq/
+[^17]: http://md.topdf.com/
 
-####Appendix
+####13. Appendix
