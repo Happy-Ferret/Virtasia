@@ -7,7 +7,7 @@
 [UI]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI.png?token=AB3yOpZBK9hftZg44-AeDtvzhaHv8o5eks5Uh7yZwA%3D%3D "UI"
 [UI2]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI2.png?token=AB3yOuOaukAdIwNeC68nDvUzkredFbWyks5Uh7ybwA%3D%3D "UI"
 [UI3]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/UI3.png?token=AB3yOgsiIBCWLI5qv-kRmw2-5CfNuO05ks5Uh7ydwA%3D%3D "UI"
-[xinit]:  ".xinitrc
+[xinit]: https://raw.githubusercontent.com/Happy-Ferret/Virtasia/master/img/xinit.png?token=AB3yOsF_b8cy_QsFjVG6W05AR_CDSNxgks5Uh78fwA%3D%3D ".xinitrc
 
 ###### Kurze Projektbeschreibung
 Ziel des Projekts ist die Umsetzung einer Virtualisierungsplatform auf ∗nix (GNU/Linux) Basis.
