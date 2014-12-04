@@ -81,7 +81,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.5 Konfiguration des Startvorgangs</li></ul> 	          |      [10](#7)		  |
 | <ul style="list-style-type:none; margin: 0em 0em; padding: 0.0em;"><li style="margin: 0em 0em; padding-left: 0.4em;">5.6 Erstellung des Installationsmediums</li></ul> 	          |      [10](#7)		  |
 | 6. Verifizierung		        	  |	 [11](#8)                  |
-| 7. Abnahme			        	  |	 [11](#8)                  |
+| 7. Abnahme			        	  |	 [11](#81)                  |
 | 8. Wirtschaftlicher Soll-Ist Vergleich          |      [12](#9)                  |
 | 9. Fazit 					  | 	 [13](#10)                 |
 |10. Quellenangabe				  |	 [14](#11)		  |
@@ -94,7 +94,7 @@ Die Anzahl der Systeme beträgt 30 Computer (Laptops).
 ####1. Das Unternehmen
 
 Das Projekt findet in der Bildungsakademie Waldshut statt. 
-Die Bildungsakademie ist eine, der Handwerkskammer untergeordnete, Lehrinstitution zur überberuflichen Bildung
+Die Bildungsakademie ist eine, der Handwerkskammer untergeordnete, Lehrinstitution zur überbetrieblichen Bildung
 von Auszubildenden im Handwerk. 
 
 Die Bildungsakademie Waldshut begleitet Auszubildende in den Bereichen KFZ, Elektrotechnik, sowie dem Maler- und Schreinerhandwerk. 
@@ -217,7 +217,7 @@ Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfül
 
 <div style="page-break-after: always;"></div>
 
-<a name="3"></a>
+<a name="4"></a>
 
 #####3.4 Projektablaufplan
 
@@ -225,7 +225,7 @@ Um die Voraussetzung eines stabilen, offenen und sicheren Basissystems zu erfül
 **Fig. 2:** *Projektablaufdiagram*
 
 <div style="page-break-after: always;"></div>
-
+<a name="5"></a>
 ####4. Design
 ![alt text][img1]
 **Fig. 3:** *Simplifizierte Darstellung der Virtasia Architektur.*
@@ -246,8 +246,7 @@ GUI, Userspace und Kernel, maximale Flexibilität.
 
 
 <div style="page-break-after: always;"></div>
-
-<a name="4"></a>
+<a name="6"></a>
 ####5. Implementierung
 
 Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungszwecken wird der Quellcode vorhandener Softwarelösungen teilweise umgeschrieben. Die Veränderungen werden dokumentiert und die so entstehenden "Patches" den Anlagen beigefügt. 
@@ -257,7 +256,7 @@ Die Implementierung des Projekts erfolgt in mehreren Schritten. Aus Optimierungs
 Auf Grund persönlicher Erfahrungen fällt die Wahl auf Debian "Wheezy". 
 Diese bekannte und weit verbreitete Distribution ist für ihre Stabilität und Simplizität bekannt. 
 
-Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches stammen aus bekannten und authentifizierten Quellen[^11][^12] .
+Der Nachteil, die Überalterung des Grundsystems, wird durch die Verwendung eines gepatchten Kernels (Linux 3.15) ausgeglichen. Die hierfür verwendeten Patches stammen aus bekannten und authentifizierten Quellen[^11]-[^12] .
 
 #####5.2 Installation des Basissystems
 
@@ -277,7 +276,7 @@ Zur Installation wird lediglich das Paket in den Home Ordner des superusers vers
 
 <div style="page-break-after: always;"></div>
 
-
+<a name="7"></a>
 #####5.4 Installation des Hypervisors
 
 Der Hypervisor basiert auf Oracles Virtualbox und wird über die offiziellen Paketquellen installiert[^7]
@@ -300,7 +299,7 @@ Dies schließt den Implementierungsprozess ab.
 
 <div style="page-break-after: always;"></div>
 
-<a name="5"></a>
+<a name="8"></a>
 ####6. Verifizierung
 
 Zur Verifizierung wird das, im vorherigen Schritt erzeugte, .iso Abbild auf einem unbenutzten Laptop installiert. 
@@ -321,7 +320,7 @@ Die so entstandene Kundendokumentation ist [Anlage 6](#Anlage6) zu entnehmen.
 
 <div style="page-break-after: always;"></div>
 
-<a name="6"></a>
+<a name="9"></a>
 
 ####8. Wirtschaftlicher Soll-Ist Vergleich
 
@@ -346,12 +345,12 @@ Die genauen zeitlichen Abweichungen sind folgender Tabelle zu entnehmen.
 |**Gesamt**                       | **35 Std**                |   |                **34 Std**                |
 
 <div style="page-break-after: always;"></div>
-
+<a name="10"></a>
 ####9. Fazit
 
 Ergebnis des Projekts ist ein moderner Desktop Hypervisor, zur sicheren, effizienten und performanten Ausführung von Gastbetriebssystemen. 
 
-Die Zielgruppe des Projekts sind Auszubildende im überbetrieblichen Unterricht der Bildungsakademie Waldshut, sowie der Fachbereich IT der Handwerkskammer Konstanz in seiner administrativen Support Rolle. 
+Die Zielgruppe des Projekts sind Auszubildende im überbetrieblichen Unterricht der Bildungsakademie Waldshut (als "Endabnehmer"), sowie der Fachbereich IT der Handwerkskammer Konstanz in seiner administrativen Support Rolle. 
 
 Alle Kriterien, mit Ausnahme des vereinfachten Dateisystems, konnten Fristgerecht umgesetzt werden. Letzteres erwies sich letztendlich als unwirtschaftlicher Mehraufwand mit nur geringen, nicht näher nennenswerten Vorteilen. 
 
@@ -366,7 +365,7 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 **Fig. 6:** *Die Virtasia Oberfläche in Aktion*
 
 <div style="page-break-after: always;"></div>
-<a name="7"></a>
+<a name="11"></a>
 ####10. Quellen
 
 <span>
@@ -393,13 +392,12 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 </ul>
 </span>
 
-<a name="8"></a>
-![alt text][Affidavit]
+<a name="12"></a> ![alt text][Affidavit]
 <div style="page-break-after: always;"></div>
 ####12. Anlagen
-
+<a name="13"></a>
 ##### Anlage 1
-
+<a name="Anlage1"></a>
 ######Installationsskript
 ![alt text][install]
 ![alt text][install2]
@@ -407,30 +405,32 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 <div style="page-break-after: always;"></div>
 
 ##### Anlage 2
-
+<a name="Anlage2"></a>
 ######Quellcode der Virtasia Benutzeroberfläche
 ![alt text][UI]
 ![alt text][UI2]
 ![alt text][UI3]
 
 ##### Anlage 3
-
+<a name="Anlage3"></a>
 ######.xinitrc
 ![alt text][xinit]
 
 <div style="page-break-after: always;"></div>
-
+<a name="Anlage4"></a>
 ##### Anlage 4
 ######Xwrapper.config
 ![alt text][Xwrapper]
 
 ##### Anlage 5
+<a name="Anlage5"></a>
 ######rc.local
 ![alt text][rc]
 
 <div style="page-break-after: always;"></div>
 
 ##### Anlage 6
+<a name="Anlage6"></a>
 ####Kundendokumentation
 
 ##### Installation
@@ -483,7 +483,7 @@ Normalerweise sind Kernel Updates nur selten von Nöten. Sollte es allerdings ei
 
 
 <div style="page-break-after: always;"></div>
-
+<a name="14"></a>
 [^1]: Reliability, Availability, Serviceability, Use-ability, Install-ability 
 *=* 
 **Zuverlässigkeit - Verfügbarkeit - Wartbarkeit - Benutzbarkeit - Installierbarkeit (im Sinne von Kompatibilität)**
