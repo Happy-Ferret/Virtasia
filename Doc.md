@@ -392,7 +392,7 @@ Erfreulich ist, dass ,die zum täglichen Unterricht verwendeten, Unterrichtsstat
 </ul>
 </span>
 
-<a name="12"></a> ![alt text][Affidavit]
+</a> ![alt text][Affidavit]<a name="12">
 <div style="page-break-after: always;"></div>
 ####12. Anlagen
 <a name="13"></a>
